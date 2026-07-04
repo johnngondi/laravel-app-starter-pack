@@ -22,6 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
 
-    # steps:
-    #   - name: Trigger Forge Deployment
-    #     run: curl --fail --silent --show-error --request POST "${{ secrets.FORGE_DEPLOY_WEBHOOK }}"
+    steps:
+      - name: Trigger Forge Deployment
+        run: curl --fail --silent --show-error --request POST "${{ secrets.FORGE_DEPLOY_WEBHOOK }}"
