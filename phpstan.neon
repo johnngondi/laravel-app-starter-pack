@@ -1,0 +1,18 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - bootstrap/app.php
+        - config/
+        - database/
+        - routes/
+
+    level: 7
+
+    # Traits staged for upcoming features have no consumers yet; don't fail
+    # the build over them. Remove once they are in use (or deleted).
+    ignoreErrors:
+        - identifier: trait.unused

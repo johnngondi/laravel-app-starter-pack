@@ -1,0 +1,503 @@
+@import 'tailwindcss';
+@import '../../vendor/livewire/flux/dist/flux.css';
+
+/* WireUI form components — scrollbar utilities, form-state styles, and the
+   Tailwind Forms plugin (class strategy so it does NOT restyle bare/Flux inputs). */
+@import '../../vendor/wireui/wireui/ts/tailwindcss/plugins/hide-scrollbar.css';
+@import '../../vendor/wireui/wireui/ts/tailwindcss/plugins/soft-scrollbar.css';
+@import '../../vendor/wireui/wireui/ts/tailwindcss/plugins/appearance-none.css';
+@import '../../vendor/wireui/wireui/ts/tailwindcss/plugins/form/validation.css';
+@import '../../vendor/wireui/wireui/ts/tailwindcss/plugins/form/input-state.css';
+
+/* Livewire PowerGrid component styles. NOTE: PowerGrid's tailwind4.css is
+   intentionally NOT imported — it re-imports tailwindcss and redefines
+   --color-primary (which would override our gold). We cherry-pick instead. */
+@import '../../vendor/power-components/livewire-powergrid/resources/css/base.css';
+@import '../../vendor/power-components/livewire-powergrid/resources/css/editable.css';
+
+@plugin '@tailwindcss/forms' {
+    strategy: 'class';
+}
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
+@source '../../vendor/livewire/flux/stubs/**/*.blade.php';
+@source '../../vendor/wireui/wireui';
+@source '../../vendor/power-components/livewire-powergrid/src/Themes/Tailwind.php';
+@source '../../vendor/power-components/livewire-powergrid/resources/views';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-zinc-50: #fafafa;
+    --color-zinc-100: #f5f5f5;
+    --color-zinc-200: #e5e5e5;
+    --color-zinc-300: #d4d4d4;
+    --color-zinc-400: #a3a3a3;
+    --color-zinc-500: #737373;
+    --color-zinc-600: #525252;
+    --color-zinc-700: #404040;
+    --color-zinc-800: #262626;
+    --color-zinc-900: #171717;
+    --color-zinc-950: #0a0a0a;
+
+    /* Brand: Navy (primary) — anchored on #1E3A8A "brighter royal" */
+    --color-navy-50: #eef2fb;
+    --color-navy-100: #d9e1f6;
+    --color-navy-200: #b3c3ec;
+    --color-navy-300: #8da5e3;
+    --color-navy-400: #6787d9;
+    --color-navy-500: #3b5bbf;
+    --color-navy-600: #2d47a3;
+    --color-navy-700: #1e3a8a;
+    --color-navy-800: #172d6b;
+    --color-navy-900: #11214f;
+    --color-navy-950: #0a1430;
+
+    /* Convenience aliases so utilities like bg-primary / text-primary work */
+    --color-primary: var(--color-navy-700);
+    --color-primary-foreground: var(--color-white);
+
+    /* Brand: Gold (accent / buttons) — anchored on #E0B53D */
+    --color-gold-50: #fdf8e9;
+    --color-gold-100: #faefc4;
+    --color-gold-200: #f5dd8a;
+    --color-gold-300: #eecb56;
+    --color-gold-400: #e0b53d;
+    --color-gold-500: #cf9e28;
+    --color-gold-600: #b27e20;
+    --color-gold-700: #8e5e1e;
+    --color-gold-800: #754b1f;
+    --color-gold-900: #643f1d;
+    --color-gold-950: #3a230b;
+
+    /* Flux accent = gold: drives primary buttons, focus rings, active states.
+       Text-on-light uses the darker gold-700 so links stay readable. */
+    --color-accent: var(--color-gold-400);
+    --color-accent-content: var(--color-gold-700);
+    --color-accent-foreground: var(--color-navy-950);
+}
+
+@theme {
+    /* ── WireUI semantic colors, themed to the Wegon brand ──────────────────
+       WireUI components (buttons, inputs, select, …) read these named color
+       scales. primary → gold so WireUI buttons match Flux's accent-driven
+       primary buttons; secondary → neutral zinc; the rest keep WireUI's
+       sensible defaults (emerald / red / amber / blue). */
+    --color-primary-50: var(--color-gold-50);
+    --color-primary-100: var(--color-gold-100);
+    --color-primary-200: var(--color-gold-200);
+    --color-primary-300: var(--color-gold-300);
+    --color-primary-400: var(--color-gold-400);
+    --color-primary-500: var(--color-gold-500);
+    --color-primary-600: var(--color-gold-600);
+    --color-primary-700: var(--color-gold-700);
+    --color-primary-800: var(--color-gold-800);
+    --color-primary-900: var(--color-gold-900);
+    --color-primary-950: var(--color-gold-950);
+
+    --color-secondary-50: var(--color-zinc-50);
+    --color-secondary-100: var(--color-zinc-100);
+    --color-secondary-200: var(--color-zinc-200);
+    --color-secondary-300: var(--color-zinc-300);
+    --color-secondary-400: var(--color-zinc-400);
+    --color-secondary-500: var(--color-zinc-500);
+    --color-secondary-600: var(--color-zinc-600);
+    --color-secondary-700: var(--color-zinc-700);
+    --color-secondary-800: var(--color-zinc-800);
+    --color-secondary-900: var(--color-zinc-900);
+    --color-secondary-950: var(--color-zinc-950);
+
+    --color-positive-50: #ecfdf5;
+    --color-positive-100: #d1fae5;
+    --color-positive-200: #a7f3d0;
+    --color-positive-300: #6ee7b7;
+    --color-positive-400: #34d399;
+    --color-positive-500: #10b981;
+    --color-positive-600: #059669;
+    --color-positive-700: #047857;
+    --color-positive-800: #065f46;
+    --color-positive-900: #064e3b;
+    --color-positive-950: #022c22;
+
+    --color-negative-50: #fef2f2;
+    --color-negative-100: #fee2e2;
+    --color-negative-200: #fecaca;
+    --color-negative-300: #fca5a5;
+    --color-negative-400: #f87171;
+    --color-negative-500: #ef4444;
+    --color-negative-600: #dc2626;
+    --color-negative-700: #b91c1c;
+    --color-negative-800: #991b1b;
+    --color-negative-900: #7f1d1d;
+    --color-negative-950: #450a0a;
+
+    --color-warning-50: #fffbeb;
+    --color-warning-100: #fef3c7;
+    --color-warning-200: #fde68a;
+    --color-warning-300: #fcd34d;
+    --color-warning-400: #fbbf24;
+    --color-warning-500: #f59e0b;
+    --color-warning-600: #d97706;
+    --color-warning-700: #b45309;
+    --color-warning-800: #92400e;
+    --color-warning-900: #78350f;
+    --color-warning-950: #451a03;
+
+    --color-info-50: #eff6ff;
+    --color-info-100: #dbeafe;
+    --color-info-200: #bfdbfe;
+    --color-info-300: #93c5fd;
+    --color-info-400: #60a5fa;
+    --color-info-500: #3b82f6;
+    --color-info-600: #2563eb;
+    --color-info-700: #1d4ed8;
+    --color-info-800: #1e40af;
+    --color-info-900: #1e3a8a;
+    --color-info-950: #172554;
+
+    --color-background-white: #fff;
+    --color-background-dark: #1e293b;
+
+    --text-3xs: 0.5rem;
+    --text-2xs: 0.65rem;
+
+    --spacing-2_2: 0.55rem;
+    --spacing-4_5: 1.13rem;
+    --spacing-5_5: 1.38rem;
+    --spacing-6_5: 1.63rem;
+    --spacing-9_5: 2.38rem;
+}
+
+@theme {
+    /* Livewire PowerGrid neutral palette (its components reference pg-primary /
+       pg-secondary). Copied from PowerGrid's tailwind4.css; we deliberately omit
+       its --color-primary redefinition so our gold primary stays intact. */
+    --color-pg-primary-50: oklch(0.985 0 0);
+    --color-pg-primary-100: oklch(0.97 0 0);
+    --color-pg-primary-200: oklch(0.922 0 0);
+    --color-pg-primary-300: oklch(0.87 0 0);
+    --color-pg-primary-400: oklch(0.708 0 0);
+    --color-pg-primary-500: oklch(0.556 0 0);
+    --color-pg-primary-600: oklch(0.439 0 0);
+    --color-pg-primary-700: oklch(0.371 0 0);
+    --color-pg-primary-800: oklch(0.269 0 0);
+    --color-pg-primary-900: oklch(0.205 0 0);
+    --color-pg-primary-950: oklch(0.145 0 0);
+
+    --color-pg-secondary-50: oklch(0.97 0.014 254.604);
+    --color-pg-secondary-100: oklch(0.932 0.032 255.585);
+    --color-pg-secondary-200: oklch(0.882 0.059 254.128);
+    --color-pg-secondary-300: oklch(0.809 0.105 251.813);
+    --color-pg-secondary-400: oklch(0.707 0.165 254.624);
+    --color-pg-secondary-500: oklch(0.623 0.214 259.815);
+    --color-pg-secondary-600: oklch(0.546 0.245 262.881);
+    --color-pg-secondary-700: oklch(0.488 0.243 264.376);
+    --color-pg-secondary-800: oklch(0.424 0.199 265.638);
+    --color-pg-secondary-900: oklch(0.379 0.146 265.522);
+    --color-pg-secondary-950: oklch(0.282 0.091 267.935);
+}
+
+/* PowerGrid Tailwind theme helper classes (from its tailwind4.css). */
+.page-link {
+    @apply block bg-white text-pg-secondary-800 border-r border-gray-200 outline-none py-2 w-12 text-sm text-center;
+}
+.page-link:last-child {
+    @apply border-0;
+}
+.page-link:hover {
+    @apply bg-pg-secondary-700 text-white border-pg-secondary-700;
+}
+.page-item.active .page-link {
+    @apply bg-pg-secondary-700 text-white border-pg-secondary-700;
+}
+.page-item.disabled .page-link {
+    @apply bg-white text-gray-300 border-gray-200;
+}
+.pg-btn-white {
+    @apply outline-none inline-flex justify-center items-center focus:ring-1 focus:ring-offset-1 bg-white hover:shadow-sm disabled:opacity-80 disabled:cursor-not-allowed rounded-lg gap-x-2 text-sm px-3 py-2 border border-pg-primary-300 text-pg-primary-500 hover:bg-pg-primary-100 ring-pg-primary-200;
+}
+.pg-filter-container {
+    @apply py-3;
+}
+.pg-enabled-filters-base {
+    @apply flex items-center gap-2 my-3 md:mt-0 flex-wrap;
+}
+
+/* PowerGrid's Tailwind theme sets the <table> background to `dark:!bg-primary-800`,
+   but `primary` is our gold here — leaving a brown !important fill behind the rows.
+   Pin it to the navy row colour so nothing brown can bleed through. */
+.dark #power-grid-table-base table {
+    background-color: var(--color-pg-primary-800) !important;
+}
+
+@layer theme {
+    .dark {
+        --color-accent: var(--color-gold-400);
+        --color-accent-content: var(--color-gold-300);
+        --color-accent-foreground: var(--color-navy-950);
+
+        --color-primary: var(--color-navy-700);
+        --color-primary-foreground: var(--color-white);
+
+        /* Livewire PowerGrid dark surfaces. The default pg-primary scale is a
+           flat neutral gray that clashes with the navy app body, so the table
+           looks "off" in dark mode. Re-tint the shades PowerGrid's Tailwind
+           theme actually uses in dark mode to navy so the table reads as an
+           elevated navy surface consistent with the rest of the dark UI.
+           Hierarchy (dark→light): body navy-950 < thead/footer-bar (900)
+           < rows (800) < wrapper/hover/footer (700) < borders (600). */
+        --color-pg-primary-200: #c7d3f0; /* body cell text + icons */
+        --color-pg-primary-300: #9fb3e6; /* header text */
+        --color-pg-primary-400: #6f8ad4; /* placeholders, search/close icons */
+        --color-pg-primary-600: #243a72; /* borders / row dividers */
+        --color-pg-primary-700: #16285d; /* row hover, wrapper, footer container */
+        --color-pg-primary-800: #11214f; /* table rows, search/per-page inputs */
+        --color-pg-primary-900: #0d1838; /* table head, footer pagination bar */
+
+        /* WireUI dark surfaces. WireUI's neutral scale is `secondary` (mapped to
+           zinc above), so its popovers, select/combobox dropdowns, option lists,
+           checkboxes and radios render flat gray on the navy theme. Re-tint
+           `secondary` to a navy-tinted neutral in dark mode so every WireUI form
+           control matches the rest of the dark UI. We keep zinc's lightness at
+           each step (only adding a navy hue) so WireUI's tested text/surface
+           contrast is preserved. */
+        --color-secondary-50: oklch(0.985 0.008 264);
+        --color-secondary-100: oklch(0.97 0.012 264);
+        --color-secondary-200: oklch(0.922 0.022 264);
+        --color-secondary-300: oklch(0.87 0.035 264);
+        --color-secondary-400: oklch(0.708 0.055 264); /* option/muted text, icons */
+        --color-secondary-500: oklch(0.556 0.07 264);
+        --color-secondary-600: oklch(0.439 0.075 264); /* borders, checkbox/radio */
+        --color-secondary-700: oklch(0.371 0.07 264); /* option hover */
+        --color-secondary-800: oklch(0.269 0.06 264); /* popover / dropdown surface */
+        --color-secondary-900: oklch(0.205 0.05 264);
+        --color-secondary-950: oklch(0.145 0.04 264);
+
+        /* Input / textarea / select-trigger fill (WireUI `background-dark`) —
+           swap the slate default for a navy surface that sits on the body. */
+        --color-background-dark: oklch(0.27 0.055 264);
+    }
+}
+
+@layer base {
+
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+}
+
+[data-flux-field]:not(ui-radio, ui-checkbox) {
+    @apply grid gap-2;
+}
+
+[data-flux-label] {
+    @apply  !mb-0 !leading-tight;
+}
+
+input:focus[data-flux-control],
+textarea:focus[data-flux-control],
+select:focus[data-flux-control] {
+    @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
+}
+
+/* WireUI text inputs / selects carry `transition-all duration-150` on their
+   container. During wire:navigate page swaps (e.g. switching settings tabs) the
+   background-color briefly animates to its dark value, producing a visible dark
+   flash on the inputs. Restrict the transition to the focus ring (box-shadow) so
+   background/colour changes apply instantly with no flash. */
+[data-name="form.wrapper.container"] {
+    transition-property: box-shadow !important;
+}
+
+/* Same dark flash for PowerGrid's own search box and per-page select, whose
+   theme classes use the default `transition` utility (which animates
+   background-color). Keep the focus-ring transition, drop the rest. */
+#power-grid-table-base input,
+#power-grid-table-base select {
+    transition-property: box-shadow !important;
+}
+
+/* Phone dial-code select — shrink the trigger and the options list to 11px so
+   longer "XX +NNN" codes fit the fixed-width box and the dropdown stays tidy.
+   The WireUI options popover renders inside the select, so this scopes cleanly. */
+.phone-code-select,
+.phone-code-select * {
+    font-size: 11px !important;
+}
+
+/* \[:where(&)\]:size-4 {
+    @apply size-4;
+} */
+
+/* Dark-mode body — replace the flat zinc fill with a deep navy that ties
+   into the sidebar, plus soft ambient glows for a richer, less harsh surface. */
+.dark .app-body {
+    background-color: var(--color-navy-950);
+    background-image:
+        radial-gradient(900px circle at 12% -5%, rgb(30 58 138 / 0.28), transparent 45%),
+        radial-gradient(1100px circle at 100% 0%, rgb(224 181 61 / 0.06), transparent 40%),
+        linear-gradient(180deg, var(--color-navy-900) 0%, var(--color-navy-950) 55%);
+    background-attachment: fixed;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* Livewire wire:navigate progress bar — gold instead of the default blue. */
+#nprogress .bar {
+    background: var(--color-gold-400) !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px var(--color-gold-400), 0 0 5px var(--color-gold-400) !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: var(--color-gold-400) !important;
+    border-left-color: var(--color-gold-400) !important;
+}
+
+/* Dropdown menu popups — reshade from the default zinc gray to an elevated
+   navy surface so they match the dark theme (profile, org switcher, theme, etc.). */
+.dark [data-flux-menu] {
+    background-color: var(--color-navy-800);
+    border-color: var(--color-navy-700);
+}
+
+.dark [data-flux-menu] [data-flux-menu-separator] {
+    background-color: var(--color-navy-700);
+}
+
+/* Modal / dialog panel — Flux defaults the surface to `dark:bg-zinc-800`
+   (flat gray) with a zinc ring/border, which reads as an out-of-place gray
+   card on the navy theme. Re-tint to an elevated navy surface consistent with
+   the dropdown menus above. */
+.dark [data-flux-modal] > dialog {
+    background-color: var(--color-navy-800);
+    border-color: var(--color-navy-700);
+    --tw-ring-color: var(--color-navy-700);
+}
+
+/* Modal backdrop — Flux uses a barely-there `rgba(0,0,0,0.10)` with no blur,
+   so the busy content behind the dialog stays distracting. Darken it a touch
+   and blur it so the modal reads as clearly in focus. */
+[data-flux-modal] > dialog::backdrop {
+    background-color: rgba(5, 10, 28, 0.45); /* navy-950, translucent */
+    backdrop-filter: blur(6px);
+}
+
+/* Org switcher dropdown — give the org rows more breathing room. */
+.org-menu [data-flux-menu-item] {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-block: 0.125rem;
+}
+
+/* Org switcher in the top bar — subtle border so it reads as an interactive
+   control rather than plain text. */
+.org-switcher [data-flux-sidebar-profile] {
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 0.5rem;
+}
+
+.dark .org-switcher [data-flux-sidebar-profile] {
+    border-color: rgb(255 255 255 / 0.12);
+}
+
+/* Top bar — styled via these rules (not dark: utilities) so the dark
+   background reliably beats the base `bg-white` in the cascade. */
+.app-topbar {
+    background-color: #fff;
+    border-color: var(--color-neutral-200);
+}
+
+.dark .app-topbar {
+    background-color: rgb(10 20 48 / 0.72); /* navy-950, translucent */
+    border-color: rgb(23 45 107 / 0.6); /* navy-800/60 */
+    backdrop-filter: blur(8px);
+}
+
+/* Sidebar — in dark mode sit a few shades below the body so it reads as a
+   distinct, deeper surface rather than blending into the content area. */
+.dark .wegon-sidebar {
+    background-color: #050a1c;
+    border-color: rgb(23 45 107 / 0.6);
+}
+
+/* Sidebar nav items — the sidebar is always dark navy, so pin the
+   hover/active states here instead of letting Flux derive them from the
+   app's light/dark mode (which made hovered text dark-on-navy = invisible). */
+.wegon-sidebar [data-flux-sidebar-item] {
+    color: rgb(255 255 255 / 0.78) !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    height: 2.75rem;
+    margin-block: 0.25rem;
+}
+
+.wegon-sidebar [data-flux-sidebar-item]:hover {
+    color: #fff !important;
+    background-color: rgb(255 255 255 / 0.08) !important;
+}
+
+/* Active item: navy highlight, white text, gold vertical bar on the left. */
+.wegon-sidebar [data-flux-sidebar-item][data-current] {
+    color: #fff !important;
+    background-color: var(--color-navy-800) !important;
+}
+
+.wegon-sidebar [data-flux-sidebar-item][data-current]::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    top: 50%;
+    height: 1.25rem;
+    width: 3px;
+    transform: translateY(-50%);
+    border-radius: 9999px;
+    background-color: var(--color-gold-400);
+}
+
+/* Item count badge (e.g. Pending Action) — gold pill stays readable on navy
+   in both light and dark mode. */
+.wegon-sidebar [data-flux-sidebar-item] [data-flux-navlist-badge] {
+    background-color: var(--color-gold-400) !important;
+    color: var(--color-navy-950) !important;
+    font-weight: 600;
+}
+
+/* Profile button (bottom of the sidebar) — same fix as the nav items: pin the
+   name + chevron to light so they don't turn dark-on-navy and vanish on hover. */
+
+
+.wegon-sidebar [data-flux-sidebar-profile] {
+    cursor: pointer;
+}
+   
+.wegon-sidebar [data-flux-sidebar-profile] > span {
+    color: rgb(255 255 255 / 0.78) !important;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.wegon-sidebar [data-flux-sidebar-profile] svg {
+    color: rgb(255 255 255 / 0.6) !important;
+}
+
+.wegon-sidebar [data-flux-sidebar-profile]:hover {
+    background-color: rgb(255 255 255 / 0.08) !important;
+}
+
+.wegon-sidebar [data-flux-sidebar-profile]:hover > span,
+.wegon-sidebar [data-flux-sidebar-profile]:hover svg {
+    color: #fff !important;
+}

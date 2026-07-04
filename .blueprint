@@ -1,0 +1,13 @@
+created:
+    - database/factories/PendingActionFactory.php
+    - database/migrations/2026_06_28_193021_create_pending_actions_table.php
+    - app/Models/PendingAction.php
+models:
+    City: { country_id: integer, name: string, latitude: 'decimal nullable', longitude: 'decimal nullable' }
+    Country: { name: string, native: 'string nullable', code: string, phone_code: string, continent: 'string nullable', capital: 'string nullable', currency: 'string nullable' }
+    Currency: { code: string, name: string, symbol: 'string nullable' }
+    Industry: { name: string }
+    Organisation: { owner_id: integer, name: string, slug: string, industry_id: 'integer nullable', country_id: 'integer nullable', city_id: 'integer nullable', currency_code: 'string nullable', phone: 'string nullable', email: 'string nullable', address: 'text nullable', tax_pin: 'string nullable', profile_photo_path: 'string nullable' }
+    Upload: { uuid: 'string nullable', organisation_id: integer, owner_type: 'string nullable', owner_id: 'integer nullable', title: string, description: 'text nullable', source_url: string, thumbnail_url: 'string nullable', file_name: string, type: 'string nullable', extension: 'string nullable', size: "integer default:'0'", user_id: 'integer nullable', deleted_to_url: 'string nullable' }
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string nullable', two_factor_secret: 'text nullable', two_factor_recovery_codes: 'text nullable', two_factor_confirmed_at: 'datetime nullable', current_organisation_id: 'integer nullable', phone: 'string nullable', tax_pin: 'string nullable', locale: 'string nullable', theme: 'string nullable', profile_photo_path: 'string nullable' }
+    PendingAction: { actionable: nullableMorphs, actors: json, notes: text, action_type: string, due_at: timestamp, priority: 'enum:critical,high,medium,low default:medium', resource_url: text, softdeletes: softDeletes }

@@ -1,0 +1,27 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    uses: ./.github/workflows/tests.yml
+    secrets: inherit
+
+  deploy:
+    needs: tests
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Trigger Forge Deployment
+        run: curl --fail --silent --show-error --request POST "${{ secrets.FORGE_DEPLOY_WEBHOOK }}"

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(php artisan *)",
+      "Bash(cat vendor/livewire/flux/stubs/resources/views/flux/menu/group.blade.php)",
+      "Bash(ls vendor/livewire/flux/stubs/resources/views/flux/menu/)",
+      "WebFetch(domain:wireui.dev)"
+    ]
+  }
+}

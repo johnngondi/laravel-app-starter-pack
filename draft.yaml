@@ -1,0 +1,12 @@
+models:
+  PendingAction:
+    actionable: nullableMorphs
+    actors: json #Possible actors
+    notes: text
+    action_type: string
+    due_at: timestamp
+    priority: enum:critical,high,medium,low default:medium
+    resource_url: text
+    softDeletes
+
+
