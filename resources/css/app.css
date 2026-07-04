@@ -82,7 +82,7 @@
 }
 
 @theme {
-    /* ── WireUI semantic colors, themed to the Wegon brand ──────────────────
+    /* ── WireUI semantic colors, themed to the AlienSoft brand ──────────────────
        WireUI components (buttons, inputs, select, …) read these named color
        scales. primary → gold so WireUI buttons match Flux's accent-driven
        primary buttons; secondary → neutral zinc; the rest keep WireUI's
@@ -428,7 +428,7 @@ select:focus[data-flux-control] {
 
 /* Sidebar — in dark mode sit a few shades below the body so it reads as a
    distinct, deeper surface rather than blending into the content area. */
-.dark .wegon-sidebar {
+.dark .aliensoft-sidebar {
     background-color: #050a1c;
     border-color: rgb(23 45 107 / 0.6);
 }
@@ -436,7 +436,7 @@ select:focus[data-flux-control] {
 /* Sidebar nav items — the sidebar is always dark navy, so pin the
    hover/active states here instead of letting Flux derive them from the
    app's light/dark mode (which made hovered text dark-on-navy = invisible). */
-.wegon-sidebar [data-flux-sidebar-item] {
+.aliensoft-sidebar [data-flux-sidebar-item] {
     color: rgb(255 255 255 / 0.78) !important;
     background-color: transparent !important;
     border-color: transparent !important;
@@ -444,18 +444,18 @@ select:focus[data-flux-control] {
     margin-block: 0.25rem;
 }
 
-.wegon-sidebar [data-flux-sidebar-item]:hover {
+.aliensoft-sidebar [data-flux-sidebar-item]:hover {
     color: #fff !important;
     background-color: rgb(255 255 255 / 0.08) !important;
 }
 
 /* Active item: navy highlight, white text, gold vertical bar on the left. */
-.wegon-sidebar [data-flux-sidebar-item][data-current] {
+.aliensoft-sidebar [data-flux-sidebar-item][data-current] {
     color: #fff !important;
     background-color: var(--color-navy-800) !important;
 }
 
-.wegon-sidebar [data-flux-sidebar-item][data-current]::before {
+.aliensoft-sidebar [data-flux-sidebar-item][data-current]::before {
     content: "";
     position: absolute;
     inset-inline-start: 0;
@@ -469,7 +469,7 @@ select:focus[data-flux-control] {
 
 /* Item count badge (e.g. Pending Action) — gold pill stays readable on navy
    in both light and dark mode. */
-.wegon-sidebar [data-flux-sidebar-item] [data-flux-navlist-badge] {
+.aliensoft-sidebar [data-flux-sidebar-item] [data-flux-navlist-badge] {
     background-color: var(--color-gold-400) !important;
     color: var(--color-navy-950) !important;
     font-weight: 600;
@@ -479,25 +479,25 @@ select:focus[data-flux-control] {
    name + chevron to light so they don't turn dark-on-navy and vanish on hover. */
 
 
-.wegon-sidebar [data-flux-sidebar-profile] {
+.aliensoft-sidebar [data-flux-sidebar-profile] {
     cursor: pointer;
 }
    
-.wegon-sidebar [data-flux-sidebar-profile] > span {
+.aliensoft-sidebar [data-flux-sidebar-profile] > span {
     color: rgb(255 255 255 / 0.78) !important;
     padding: 8px;
     cursor: pointer;
 }
 
-.wegon-sidebar [data-flux-sidebar-profile] svg {
+.aliensoft-sidebar [data-flux-sidebar-profile] svg {
     color: rgb(255 255 255 / 0.6) !important;
 }
 
-.wegon-sidebar [data-flux-sidebar-profile]:hover {
+.aliensoft-sidebar [data-flux-sidebar-profile]:hover {
     background-color: rgb(255 255 255 / 0.08) !important;
 }
 
-.wegon-sidebar [data-flux-sidebar-profile]:hover > span,
-.wegon-sidebar [data-flux-sidebar-profile]:hover svg {
+.aliensoft-sidebar [data-flux-sidebar-profile]:hover > span,
+.aliensoft-sidebar [data-flux-sidebar-profile]:hover svg {
     color: #fff !important;
 }

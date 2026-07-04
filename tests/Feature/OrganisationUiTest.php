@@ -35,15 +35,15 @@ it('creates an organisation through the onboarding component', function () {
 
     $component = Livewire::actingAs($user)
         ->test(CreateOrganisation::class)
-        ->set('name', 'Wegon Collections')
+        ->set('name', 'AlienSoft Collections')
         ->set('industryId', $industry->id)
         ->set('countryId', $country->id)
         ->call('create');
 
-    $organisation = Organisation::where('name', 'Wegon Collections')->first();
+    $organisation = Organisation::where('name', 'AlienSoft Collections')->first();
 
     expect($organisation)->not->toBeNull()
-        ->and($organisation->slug)->toBe('wegon-collections')
+        ->and($organisation->slug)->toBe('aliensoft-collections')
         ->and($organisation->industry_id)->toBe($industry->id)
         ->and($organisation->country_id)->toBe($country->id)
         ->and($user->fresh()->current_organisation_id)->toBe($organisation->id);
@@ -190,7 +190,7 @@ it('walks through the create-organisation wizard steps before creating', functio
         ->call('nextStep')                  // required fields missing — stays on step 1
         ->assertHasErrors(['name', 'industryId', 'countryId'])
         ->assertSet('step', 1)
-        ->set('name', 'Wegon Collections')
+        ->set('name', 'AlienSoft Collections')
         ->set('industryId', $industry->id)
         ->set('countryId', $country->id)
         ->call('nextStep')                  // advances to the contact step
@@ -202,9 +202,9 @@ it('walks through the create-organisation wizard steps before creating', functio
         ->assertSet('step', 2)
         ->call('nextStep')
         ->call('create')
-        ->assertRedirect(route('organisation.dashboard', Organisation::firstWhere('name', 'Wegon Collections')));
+        ->assertRedirect(route('organisation.dashboard', Organisation::firstWhere('name', 'AlienSoft Collections')));
 
-    expect(Organisation::where('name', 'Wegon Collections')->exists())->toBeTrue();
+    expect(Organisation::where('name', 'AlienSoft Collections')->exists())->toBeTrue();
 });
 
 it('defaults the currency and dial code from the chosen country', function () {

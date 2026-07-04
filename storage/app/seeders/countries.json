@@ -1,0 +1,3405 @@
+[
+    {
+        "name": "Kenya",
+        "native": "",
+        "code": "KE",
+        "phone": [
+            254
+        ],
+        "continent": "AF",
+        "capital": "Nairobi",
+        "currency": [
+            "KES"
+        ],
+        "languages": [
+            "en",
+            "sw"
+        ],
+        "cities": [
+            {
+                "name": "Ahero",
+                "latitude": "-0.17359000",
+                "longitude": "34.91890000"
+            },
+            {
+                "name": "Athi River",
+                "latitude": "-1.45630000",
+                "longitude": "36.97826000"
+            },
+            {
+                "name": "Baringo",
+                "latitude": "0.46667000",
+                "longitude": "35.96667000"
+            },
+            {
+                "name": "Bondo",
+                "latitude": "0.23522000",
+                "longitude": "34.28086000"
+            },
+            {
+                "name": "Bungoma",
+                "latitude": "0.56350000",
+                "longitude": "34.56055000"
+            },
+            {
+                "name": "Busia",
+                "latitude": "0.46005000",
+                "longitude": "34.11169000"
+            },
+            {
+                "name": "Butere",
+                "latitude": "0.20694000",
+                "longitude": "34.49006000"
+            },
+            {
+                "name": "Chepareria",
+                "latitude": "1.30583000",
+                "longitude": "35.20365000"
+            },
+            {
+                "name": "Chuka",
+                "latitude": "-0.33316000",
+                "longitude": "37.64587000"
+            },
+            {
+                "name": "Eldama Ravine",
+                "latitude": "0.05196000",
+                "longitude": "35.72734000"
+            },
+            {
+                "name": "Eldoret",
+                "latitude": "0.52036000",
+                "longitude": "35.26993000"
+            },
+            {
+                "name": "Embu",
+                "latitude": "-0.53987000",
+                "longitude": "37.45743000"
+            },
+            {
+                "name": "Garissa",
+                "latitude": "-0.45275000",
+                "longitude": "39.64601000"
+            },
+            {
+                "name": "Gazi",
+                "latitude": "-4.42402000",
+                "longitude": "39.50588000"
+            },
+            {
+                "name": "Hola",
+                "latitude": "-1.48256000",
+                "longitude": "40.03341000"
+            },
+            {
+                "name": "Homa Bay",
+                "latitude": "-0.52731000",
+                "longitude": "34.45714000"
+            },
+            {
+                "name": "Isiolo",
+                "latitude": "0.35462000",
+                "longitude": "37.58218000"
+            },
+            {
+                "name": "Iten",
+                "latitude": "0.67028000",
+                "longitude": "35.50806000"
+            },
+            {
+                "name": "Kabarnet",
+                "latitude": "0.49194000",
+                "longitude": "35.74303000"
+            },
+            {
+                "name": "Kajiado",
+                "latitude": "-1.85238000",
+                "longitude": "36.77683000"
+            },
+            {
+                "name": "Kakamega",
+                "latitude": "0.28422000",
+                "longitude": "34.75229000"
+            },
+            {
+                "name": "Kangema",
+                "latitude": "-0.68553000",
+                "longitude": "36.96463000"
+            },
+            {
+                "name": "Kangundo",
+                "latitude": "-1.30342000",
+                "longitude": "37.34813000"
+            },
+            {
+                "name": "Kapenguria",
+                "latitude": "1.23889000",
+                "longitude": "35.11194000"
+            },
+            {
+                "name": "Kapsabet",
+                "latitude": "0.20387000",
+                "longitude": "35.10500000"
+            },
+            {
+                "name": "Kapsowar",
+                "latitude": "0.97890000",
+                "longitude": "35.55854000"
+            },
+            {
+                "name": "Karuri",
+                "latitude": "-0.70000000",
+                "longitude": "37.18333000"
+            },
+            {
+                "name": "Kericho",
+                "latitude": "-0.36774000",
+                "longitude": "35.28314000"
+            },
+            {
+                "name": "Keroka",
+                "latitude": "-0.77612000",
+                "longitude": "34.94678000"
+            },
+            {
+                "name": "Kerugoya",
+                "latitude": "-0.49887000",
+                "longitude": "37.28031000"
+            },
+            {
+                "name": "Kiambu",
+                "latitude": "-1.17139000",
+                "longitude": "36.83556000"
+            },
+            {
+                "name": "Kihancha",
+                "latitude": "-1.19347000",
+                "longitude": "34.61967000"
+            },
+            {
+                "name": "Kijabe",
+                "latitude": "-0.93334000",
+                "longitude": "36.57233000"
+            },
+            {
+                "name": "Kikuyu",
+                "latitude": "-1.24627000",
+                "longitude": "36.66291000"
+            },
+            {
+                "name": "Kilifi",
+                "latitude": "-3.63045000",
+                "longitude": "39.84992000"
+            },
+            {
+                "name": "Kinango",
+                "latitude": "-4.13723000",
+                "longitude": "39.31528000"
+            },
+            {
+                "name": "Kipini",
+                "latitude": "-2.52565000",
+                "longitude": "40.52620000"
+            },
+            {
+                "name": "Kipkelion",
+                "latitude": "-0.19982000",
+                "longitude": "35.46735000"
+            },
+            {
+                "name": "Kisii",
+                "latitude": "-0.68174000",
+                "longitude": "34.76666000"
+            },
+            {
+                "name": "Kisumu",
+                "latitude": "-0.10221000",
+                "longitude": "34.76171000"
+            },
+            {
+                "name": "Kitale",
+                "latitude": "1.01572000",
+                "longitude": "35.00622000"
+            },
+            {
+                "name": "Kitui",
+                "latitude": "-1.36696000",
+                "longitude": "38.01055000"
+            },
+            {
+                "name": "Konza",
+                "latitude": "-1.73947000",
+                "longitude": "37.13195000"
+            },
+            {
+                "name": "Kwale",
+                "latitude": "-4.17375000",
+                "longitude": "39.45206000"
+            },
+            {
+                "name": "Lamu",
+                "latitude": "-2.27169000",
+                "longitude": "40.90201000"
+            },
+            {
+                "name": "Limuru",
+                "latitude": "-1.11360000",
+                "longitude": "36.64205000"
+            },
+            {
+                "name": "Litein",
+                "latitude": "-0.58249000",
+                "longitude": "35.18969000"
+            },
+            {
+                "name": "Lodwar",
+                "latitude": "3.11988000",
+                "longitude": "35.59642000"
+            },
+            {
+                "name": "Londiani",
+                "latitude": "-0.16552000",
+                "longitude": "35.59359000"
+            },
+            {
+                "name": "Luanda",
+                "latitude": "0.31354000",
+                "longitude": "34.07146000"
+            },
+            {
+                "name": "Lugulu",
+                "latitude": "0.39337000",
+                "longitude": "34.30399000"
+            },
+            {
+                "name": "Machakos",
+                "latitude": "-1.52233000",
+                "longitude": "37.26521000"
+            },
+            {
+                "name": "Magadi",
+                "latitude": "-1.90122000",
+                "longitude": "36.28700000"
+            },
+            {
+                "name": "Makueni Boma",
+                "latitude": "-1.80388000",
+                "longitude": "37.62405000"
+            },
+            {
+                "name": "Malaba",
+                "latitude": "0.63513000",
+                "longitude": "34.28165000"
+            },
+            {
+                "name": "Malikisi",
+                "latitude": "0.67694000",
+                "longitude": "34.42167000"
+            },
+            {
+                "name": "Malindi",
+                "latitude": "-3.21799000",
+                "longitude": "40.11692000"
+            },
+            {
+                "name": "Mandera",
+                "latitude": "3.93726000",
+                "longitude": "41.85688000"
+            },
+            {
+                "name": "Maragua",
+                "latitude": "-0.79602000",
+                "longitude": "37.13292000"
+            },
+            {
+                "name": "Maralal",
+                "latitude": "1.09667000",
+                "longitude": "36.69806000"
+            },
+            {
+                "name": "Mariakani",
+                "latitude": "-3.86261000",
+                "longitude": "39.47458000"
+            },
+            {
+                "name": "Marsabit",
+                "latitude": "2.33468000",
+                "longitude": "37.99086000"
+            },
+            {
+                "name": "Maua",
+                "latitude": "0.23320000",
+                "longitude": "37.94086000"
+            },
+            {
+                "name": "Meru",
+                "latitude": "0.04626000",
+                "longitude": "37.65587000"
+            },
+            {
+                "name": "Migori",
+                "latitude": "-1.06343000",
+                "longitude": "34.47313000"
+            },
+            {
+                "name": "Molo",
+                "latitude": "-0.24849000",
+                "longitude": "35.73194000"
+            },
+            {
+                "name": "Mombasa",
+                "latitude": "-4.05466000",
+                "longitude": "39.66359000"
+            },
+            {
+                "name": "Moyale",
+                "latitude": "3.52661000",
+                "longitude": "39.05610000"
+            },
+            {
+                "name": "Mtito Andei",
+                "latitude": "-2.68987000",
+                "longitude": "38.16687000"
+            },
+            {
+                "name": "Muhoroni",
+                "latitude": "-0.15816000",
+                "longitude": "35.19645000"
+            },
+            {
+                "name": "Mumias",
+                "latitude": "0.33474000",
+                "longitude": "34.48796000"
+            },
+            {
+                "name": "Murang’a",
+                "latitude": "-0.72104000",
+                "longitude": "37.15259000"
+            },
+            {
+                "name": "Mwingi",
+                "latitude": "-0.93605000",
+                "longitude": "38.05955000"
+            },
+            {
+                "name": "Nairobi",
+                "latitude": "-1.28333000",
+                "longitude": "36.81667000"
+            },
+            {
+                "name": "Naivasha",
+                "latitude": "-0.71383000",
+                "longitude": "36.43261000"
+            },
+            {
+                "name": "Nakuru",
+                "latitude": "-0.30719000",
+                "longitude": "36.07225000"
+            },
+            {
+                "name": "Nambare",
+                "latitude": "0.45813000",
+                "longitude": "34.25353000"
+            },
+            {
+                "name": "Nandi Hills",
+                "latitude": "0.10366000",
+                "longitude": "35.18426000"
+            },
+            {
+                "name": "Nanyuki",
+                "latitude": "0.00624000",
+                "longitude": "37.07398000"
+            },
+            {
+                "name": "Naro Moru",
+                "latitude": "-0.16357000",
+                "longitude": "37.01773000"
+            },
+            {
+                "name": "Narok",
+                "latitude": "-1.08083000",
+                "longitude": "35.87111000"
+            },
+            {
+                "name": "Ngong",
+                "latitude": "-1.35270000",
+                "longitude": "36.66990000"
+            },
+            {
+                "name": "Nyahururu",
+                "latitude": "0.03813000",
+                "longitude": "36.36339000"
+            },
+            {
+                "name": "Nyamira",
+                "latitude": "-0.56333000",
+                "longitude": "34.93583000"
+            },
+            {
+                "name": "Nyeri",
+                "latitude": "-0.42013000",
+                "longitude": "36.94759000"
+            },
+            {
+                "name": "Ogembo",
+                "latitude": "-0.80116000",
+                "longitude": "34.72579000"
+            },
+            {
+                "name": "Ol Kalou",
+                "latitude": "-0.27088000",
+                "longitude": "36.37917000"
+            },
+            {
+                "name": "Othaya",
+                "latitude": "-0.54655000",
+                "longitude": "36.93178000"
+            },
+            {
+                "name": "Oyugis",
+                "latitude": "-0.50974000",
+                "longitude": "34.73067000"
+            },
+            {
+                "name": "Port Victoria",
+                "latitude": "0.09809000",
+                "longitude": "33.97248000"
+            },
+            {
+                "name": "Pumwani",
+                "latitude": "-1.28333000",
+                "longitude": "36.85000000"
+            },
+            {
+                "name": "Rachuonyo District",
+                "latitude": "-0.44000000",
+                "longitude": "34.73900000"
+            },
+            {
+                "name": "Rongai",
+                "latitude": "-0.17344000",
+                "longitude": "35.86313000"
+            },
+            {
+                "name": "Rumuruti",
+                "latitude": "0.27250000",
+                "longitude": "36.53806000"
+            },
+            {
+                "name": "Sagana",
+                "latitude": "-0.66806000",
+                "longitude": "37.20875000"
+            },
+            {
+                "name": "Sawa Sawa",
+                "latitude": "-4.47166000",
+                "longitude": "39.48463000"
+            },
+            {
+                "name": "Shimoni",
+                "latitude": "-4.64756000",
+                "longitude": "39.38175000"
+            },
+            {
+                "name": "Siaya",
+                "latitude": "0.06070000",
+                "longitude": "34.28806000"
+            },
+            {
+                "name": "Sotik",
+                "latitude": "-0.69069000",
+                "longitude": "35.11102000"
+            },
+            {
+                "name": "Sotik Post",
+                "latitude": "-0.78129000",
+                "longitude": "35.34156000"
+            },
+            {
+                "name": "Takaungu",
+                "latitude": "-3.68350000",
+                "longitude": "39.85687000"
+            },
+            {
+                "name": "Taveta",
+                "latitude": "-3.39879000",
+                "longitude": "37.68336000"
+            },
+            {
+                "name": "Thika",
+                "latitude": "-1.03326000",
+                "longitude": "37.06933000"
+            },
+            {
+                "name": "Voi",
+                "latitude": "-3.39605000",
+                "longitude": "38.55609000"
+            },
+            {
+                "name": "Wajir",
+                "latitude": "1.74710000",
+                "longitude": "40.05732000"
+            },
+            {
+                "name": "Webuye",
+                "latitude": "0.60040000",
+                "longitude": "34.77119000"
+            },
+            {
+                "name": "Witu",
+                "latitude": "-2.38892000",
+                "longitude": "40.43827000"
+            },
+            {
+                "name": "Wote",
+                "latitude": "-1.78079000",
+                "longitude": "37.62882000"
+            },
+            {
+                "name": "Wundanyi",
+                "latitude": "-3.39642000",
+                "longitude": "38.35729000"
+            },
+            {
+                "name": "Yala",
+                "latitude": "0.09438000",
+                "longitude": "34.53602000"
+            }
+        ]
+    },
+    {
+        "name": "Tanzania",
+        "native": "",
+        "code": "TZ",
+        "phone": [
+            255
+        ],
+        "continent": "AF",
+        "capital": "Dodoma",
+        "currency": [
+            "TZS"
+        ],
+        "languages": [
+            "sw",
+            "en"
+        ],
+        "cities": [
+            {
+                "name": "Arusha",
+                "latitude": "-3.36667000",
+                "longitude": "36.68333000"
+            },
+            {
+                "name": "Babati",
+                "latitude": "-4.21667000",
+                "longitude": "35.75000000"
+            },
+            {
+                "name": "Bagamoyo",
+                "latitude": "-6.44222000",
+                "longitude": "38.90422000"
+            },
+            {
+                "name": "Bariadi",
+                "latitude": "-2.80000000",
+                "longitude": "33.98333000"
+            },
+            {
+                "name": "Bashanet",
+                "latitude": "-4.23333000",
+                "longitude": "35.41667000"
+            },
+            {
+                "name": "Basotu",
+                "latitude": "-4.36667000",
+                "longitude": "35.08333000"
+            },
+            {
+                "name": "Biharamulo",
+                "latitude": "-2.63194000",
+                "longitude": "31.30889000"
+            },
+            {
+                "name": "Bugarama",
+                "latitude": "-2.87056000",
+                "longitude": "30.52806000"
+            },
+            {
+                "name": "Bugene",
+                "latitude": "-1.59111000",
+                "longitude": "31.14028000"
+            },
+            {
+                "name": "Bukene",
+                "latitude": "-4.23333000",
+                "longitude": "32.88333000"
+            },
+            {
+                "name": "Bukoba",
+                "latitude": "-1.33167000",
+                "longitude": "31.81222000"
+            },
+            {
+                "name": "Bukonyo",
+                "latitude": "-1.95000000",
+                "longitude": "32.93333000"
+            },
+            {
+                "name": "Bungu",
+                "latitude": "-7.63369000",
+                "longitude": "39.05818000"
+            },
+            {
+                "name": "Buseresere",
+                "latitude": "-3.02361000",
+                "longitude": "31.87472000"
+            },
+            {
+                "name": "Butiama",
+                "latitude": "-1.76667000",
+                "longitude": "33.96667000"
+            },
+            {
+                "name": "Chake Chake",
+                "latitude": "-5.24586000",
+                "longitude": "39.76659000"
+            },
+            {
+                "name": "Chala",
+                "latitude": "-7.58333000",
+                "longitude": "31.26667000"
+            },
+            {
+                "name": "Chalinze",
+                "latitude": "-6.63784000",
+                "longitude": "38.35396000"
+            },
+            {
+                "name": "Chanika",
+                "latitude": "-5.41667000",
+                "longitude": "38.01667000"
+            },
+            {
+                "name": "Chato",
+                "latitude": "-2.63778000",
+                "longitude": "31.76694000"
+            },
+            {
+                "name": "Chimala",
+                "latitude": "-8.85637000",
+                "longitude": "34.02393000"
+            },
+            {
+                "name": "Chiungutwa",
+                "latitude": "-10.88333000",
+                "longitude": "38.98333000"
+            },
+            {
+                "name": "Dar es Salaam",
+                "latitude": "-6.82349000",
+                "longitude": "39.26951000"
+            },
+            {
+                "name": "Dareda",
+                "latitude": "-4.21667000",
+                "longitude": "35.55000000"
+            },
+            {
+                "name": "Dodoma",
+                "latitude": "-6.17221000",
+                "longitude": "35.73947000"
+            },
+            {
+                "name": "Dongobesh",
+                "latitude": "-4.06667000",
+                "longitude": "35.38333000"
+            },
+            {
+                "name": "Endasak",
+                "latitude": "-4.41667000",
+                "longitude": "35.51667000"
+            },
+            {
+                "name": "Galappo",
+                "latitude": "-4.26667000",
+                "longitude": "35.85000000"
+            },
+            {
+                "name": "Gamba",
+                "latitude": "-5.90000000",
+                "longitude": "39.30000000"
+            },
+            {
+                "name": "Geiro",
+                "latitude": "-6.15000000",
+                "longitude": "36.86667000"
+            },
+            {
+                "name": "Geita",
+                "latitude": "-2.87250000",
+                "longitude": "32.23250000"
+            },
+            {
+                "name": "Hedaru",
+                "latitude": "-4.50000000",
+                "longitude": "37.90000000"
+            },
+            {
+                "name": "Hedaru",
+                "latitude": "-4.50000000",
+                "longitude": "37.90000000"
+            },
+            {
+                "name": "Ibaba",
+                "latitude": "-9.40000000",
+                "longitude": "33.35000000"
+            },
+            {
+                "name": "Ifakara",
+                "latitude": "-8.13333000",
+                "longitude": "36.68333000"
+            },
+            {
+                "name": "Igugunu",
+                "latitude": "-4.56667000",
+                "longitude": "34.63333000"
+            },
+            {
+                "name": "Igurubi",
+                "latitude": "-4.00000000",
+                "longitude": "33.70000000"
+            },
+            {
+                "name": "Ikama",
+                "latitude": "-9.26666667",
+                "longitude": "33.83333333"
+            },
+            {
+                "name": "Ikinga",
+                "latitude": "-9.50000000",
+                "longitude": "33.55000000"
+            },
+            {
+                "name": "Ikolo",
+                "latitude": "-9.65000000",
+                "longitude": "33.90000000"
+            },
+            {
+                "name": "Ikungi",
+                "latitude": "-5.13333000",
+                "longitude": "34.76667000"
+            },
+            {
+                "name": "Ikuti",
+                "latitude": "-9.31666667",
+                "longitude": "33.53333333"
+            },
+            {
+                "name": "Ikwiriri",
+                "latitude": "-7.95618000",
+                "longitude": "38.97164000"
+            },
+            {
+                "name": "Ilembo",
+                "latitude": "-9.25000000",
+                "longitude": "33.38333333"
+            },
+            {
+                "name": "Ilembula",
+                "latitude": "-8.90000000",
+                "longitude": "34.58333000"
+            },
+            {
+                "name": "Ilemela District",
+                "latitude": "-2.44783000",
+                "longitude": "33.03177000"
+            },
+            {
+                "name": "Ilongero",
+                "latitude": "-4.66667000",
+                "longitude": "34.86667000"
+            },
+            {
+                "name": "Ilula",
+                "latitude": "-7.67660000",
+                "longitude": "36.03658000"
+            },
+            {
+                "name": "Inyonga",
+                "latitude": "-6.71667000",
+                "longitude": "32.06667000"
+            },
+            {
+                "name": "Ipinda",
+                "latitude": "-9.48333333",
+                "longitude": "33.90000000"
+            },
+            {
+                "name": "Iringa",
+                "latitude": "-7.76667000",
+                "longitude": "35.70000000"
+            },
+            {
+                "name": "Isaka",
+                "latitude": "-3.90000000",
+                "longitude": "32.93333000"
+            },
+            {
+                "name": "Issenye",
+                "latitude": "-2.00000000",
+                "longitude": "34.33333000"
+            },
+            {
+                "name": "Itigi",
+                "latitude": "-5.70000000",
+                "longitude": "34.48333000"
+            },
+            {
+                "name": "Izazi",
+                "latitude": "-7.20000000",
+                "longitude": "35.73333000"
+            },
+            {
+                "name": "Kabanga",
+                "latitude": "-2.63861000",
+                "longitude": "30.46778000"
+            },
+            {
+                "name": "Kabula",
+                "latitude": "-9.26666667",
+                "longitude": "33.76666667"
+            },
+            {
+                "name": "Kahama",
+                "latitude": "-3.83333000",
+                "longitude": "32.60000000"
+            },
+            {
+                "name": "Kahe Tanzania",
+                "latitude": "-3.50000000",
+                "longitude": "37.43300000"
+            },
+            {
+                "name": "Kakonko",
+                "latitude": "-3.28278000",
+                "longitude": "30.96417000"
+            },
+            {
+                "name": "Kaliua",
+                "latitude": "-5.06056000",
+                "longitude": "31.79361000"
+            },
+            {
+                "name": "Kamachumu",
+                "latitude": "-1.61861000",
+                "longitude": "31.62000000"
+            },
+            {
+                "name": "Kandete",
+                "latitude": "-9.15000000",
+                "longitude": "33.80000000"
+            },
+            {
+                "name": "Karema",
+                "latitude": "-6.82052000",
+                "longitude": "30.43887000"
+            },
+            {
+                "name": "Kasamwa",
+                "latitude": "-2.85000000",
+                "longitude": "32.43333000"
+            },
+            {
+                "name": "Kasulu",
+                "latitude": "-4.57667000",
+                "longitude": "30.10250000"
+            },
+            {
+                "name": "Katerero",
+                "latitude": "-1.40000000",
+                "longitude": "31.73333000"
+            },
+            {
+                "name": "Katesh",
+                "latitude": "-4.52483000",
+                "longitude": "35.38490000"
+            },
+            {
+                "name": "Katoro",
+                "latitude": "-3.02028000",
+                "longitude": "31.89583000"
+            },
+            {
+                "name": "Katoro",
+                "latitude": "-1.39972000",
+                "longitude": "31.50028000"
+            },
+            {
+                "name": "Katumba",
+                "latitude": "-9.23333333",
+                "longitude": "33.61666667"
+            },
+            {
+                "name": "Kibaha",
+                "latitude": "-6.76667000",
+                "longitude": "38.91667000"
+            },
+            {
+                "name": "Kibakwe",
+                "latitude": "-6.71667000",
+                "longitude": "36.36667000"
+            },
+            {
+                "name": "Kibara",
+                "latitude": "-2.15000000",
+                "longitude": "33.45000000"
+            },
+            {
+                "name": "Kibaya",
+                "latitude": "-5.30000000",
+                "longitude": "36.56667000"
+            },
+            {
+                "name": "Kibiti",
+                "latitude": "-7.72178000",
+                "longitude": "38.93749000"
+            },
+            {
+                "name": "Kibondo",
+                "latitude": "-3.58639000",
+                "longitude": "30.72028000"
+            },
+            {
+                "name": "Kidatu",
+                "latitude": "-7.69916000",
+                "longitude": "36.95722000"
+            },
+            {
+                "name": "Kidodi",
+                "latitude": "-7.60361000",
+                "longitude": "37.00438000"
+            },
+            {
+                "name": "Kigoma",
+                "latitude": "-4.87694000",
+                "longitude": "29.62667000"
+            },
+            {
+                "name": "Kigonsera",
+                "latitude": "-10.80000000",
+                "longitude": "35.05000000"
+            },
+            {
+                "name": "Kihangara",
+                "latitude": "-2.58333000",
+                "longitude": "33.35000000"
+            },
+            {
+                "name": "Kihurio",
+                "latitude": "-4.46666667",
+                "longitude": "38.06666667"
+            },
+            {
+                "name": "Kijini",
+                "latitude": "-5.85000000",
+                "longitude": "39.31667000"
+            },
+            {
+                "name": "Kilimatinde",
+                "latitude": "-5.85000000",
+                "longitude": "34.95000000"
+            },
+            {
+                "name": "Kilindoni",
+                "latitude": "-7.91446000",
+                "longitude": "39.66204000"
+            },
+            {
+                "name": "Kilosa",
+                "latitude": "-6.83333000",
+                "longitude": "36.98333000"
+            },
+            {
+                "name": "Kimamba",
+                "latitude": "-6.78333000",
+                "longitude": "37.13333000"
+            },
+            {
+                "name": "Kingori",
+                "latitude": "-3.28333000",
+                "longitude": "36.98333000"
+            },
+            {
+                "name": "Kintinku",
+                "latitude": "-5.88333000",
+                "longitude": "35.23333000"
+            },
+            {
+                "name": "Kiomboi",
+                "latitude": "-4.26667000",
+                "longitude": "34.36667000"
+            },
+            {
+                "name": "Kirando",
+                "latitude": "-7.41667000",
+                "longitude": "30.60000000"
+            },
+            {
+                "name": "Kiratu",
+                "latitude": "-3.33333000",
+                "longitude": "35.66667000"
+            },
+            {
+                "name": "Kirya",
+                "latitude": "-3.91667000",
+                "longitude": "37.48333000"
+            },
+            {
+                "name": "Kisanga",
+                "latitude": "-7.43622000",
+                "longitude": "37.70337000"
+            },
+            {
+                "name": "Kisarawe",
+                "latitude": "-6.90000000",
+                "longitude": "39.06667000"
+            },
+            {
+                "name": "Kisasa",
+                "latitude": "-6.17526000",
+                "longitude": "35.79266000"
+            },
+            {
+                "name": "Kisesa",
+                "latitude": "-3.08333000",
+                "longitude": "34.15000000"
+            },
+            {
+                "name": "Kishapu",
+                "latitude": "-3.61667000",
+                "longitude": "33.86667000"
+            },
+            {
+                "name": "Kisiwani",
+                "latitude": "-4.13333000",
+                "longitude": "37.95000000"
+            },
+            {
+                "name": "Kitama",
+                "latitude": "-10.71667000",
+                "longitude": "39.73333000"
+            },
+            {
+                "name": "Kitangari",
+                "latitude": "-10.65000000",
+                "longitude": "39.33333000"
+            },
+            {
+                "name": "Kiwengwa",
+                "latitude": "-5.98957000",
+                "longitude": "39.37680000"
+            },
+            {
+                "name": "Kiwira",
+                "latitude": "-9.16666667",
+                "longitude": "33.53333333"
+            },
+            {
+                "name": "Koani",
+                "latitude": "-6.13333000",
+                "longitude": "39.28333000"
+            },
+            {
+                "name": "Koani Ndogo",
+                "latitude": "-6.13333000",
+                "longitude": "39.28333000"
+            },
+            {
+                "name": "Konde",
+                "latitude": "-4.95000000",
+                "longitude": "39.75000000"
+            },
+            {
+                "name": "Kondoa",
+                "latitude": "-4.70931000",
+                "longitude": "35.86227000"
+            },
+            {
+                "name": "Kongwa",
+                "latitude": "-6.20000000",
+                "longitude": "36.41667000"
+            },
+            {
+                "name": "Kwakoa",
+                "latitude": "-3.76666667",
+                "longitude": "37.71666667"
+            },
+            {
+                "name": "Kyaka",
+                "latitude": "-1.25222000",
+                "longitude": "31.42028000"
+            },
+            {
+                "name": "Laela",
+                "latitude": "-8.56667000",
+                "longitude": "32.05000000"
+            },
+            {
+                "name": "Lalago",
+                "latitude": "-3.45000000",
+                "longitude": "33.95000000"
+            },
+            {
+                "name": "Lembeni",
+                "latitude": "-3.78333333",
+                "longitude": "37.61666667"
+            },
+            {
+                "name": "Lindi",
+                "latitude": "-9.99709000",
+                "longitude": "39.71649000"
+            },
+            {
+                "name": "Liuli",
+                "latitude": "-11.08333000",
+                "longitude": "34.63333000"
+            },
+            {
+                "name": "Longido",
+                "latitude": "-2.73319000",
+                "longitude": "36.69773000"
+            },
+            {
+                "name": "Luchingu",
+                "latitude": "-10.90000000",
+                "longitude": "39.33333000"
+            },
+            {
+                "name": "Lugoba",
+                "latitude": "-6.45000000",
+                "longitude": "38.33333000"
+            },
+            {
+                "name": "Lukuledi",
+                "latitude": "-10.56667000",
+                "longitude": "38.80000000"
+            },
+            {
+                "name": "Lulindi",
+                "latitude": "-10.81667000",
+                "longitude": "39.13333000"
+            },
+            {
+                "name": "Lupata",
+                "latitude": "-9.30000000",
+                "longitude": "33.85000000"
+            },
+            {
+                "name": "Lupiro",
+                "latitude": "-8.38333000",
+                "longitude": "36.66667000"
+            },
+            {
+                "name": "Lushoto",
+                "latitude": "-4.78333000",
+                "longitude": "38.28333000"
+            },
+            {
+                "name": "Lusungo",
+                "latitude": "-9.50000000",
+                "longitude": "33.98333333"
+            },
+            {
+                "name": "Mabama",
+                "latitude": "-5.13333000",
+                "longitude": "32.53333000"
+            },
+            {
+                "name": "Mabamba",
+                "latitude": "-3.59833000",
+                "longitude": "30.50194000"
+            },
+            {
+                "name": "Machame",
+                "latitude": "-3.20611000",
+                "longitude": "37.22638890"
+            },
+            {
+                "name": "Machame",
+                "latitude": "-3.20611111",
+                "longitude": "37.22638889"
+            },
+            {
+                "name": "Madimba",
+                "latitude": "-10.40000000",
+                "longitude": "40.33333000"
+            },
+            {
+                "name": "Mafinga",
+                "latitude": "-7.25000000",
+                "longitude": "35.06667000"
+            },
+            {
+                "name": "Magole",
+                "latitude": "-6.37697000",
+                "longitude": "37.37373000"
+            },
+            {
+                "name": "Magomeni",
+                "latitude": "-5.23333000",
+                "longitude": "38.11667000"
+            },
+            {
+                "name": "Magomeni",
+                "latitude": "-6.80000000",
+                "longitude": "39.25000000"
+            },
+            {
+                "name": "Magugu",
+                "latitude": "-4.01667000",
+                "longitude": "35.76667000"
+            },
+            {
+                "name": "Mahanje",
+                "latitude": "-9.93333000",
+                "longitude": "35.33333000"
+            },
+            {
+                "name": "Mahenge",
+                "latitude": "-8.68333000",
+                "longitude": "36.71667000"
+            },
+            {
+                "name": "Mahonda",
+                "latitude": "-6.45000000",
+                "longitude": "39.46667000"
+            },
+            {
+                "name": "Mahuta",
+                "latitude": "-10.86667000",
+                "longitude": "39.45000000"
+            },
+            {
+                "name": "Majengo",
+                "latitude": "-5.15000000",
+                "longitude": "38.98333000"
+            },
+            {
+                "name": "Makanya",
+                "latitude": "-4.36666667",
+                "longitude": "37.83333333"
+            },
+            {
+                "name": "Makumbako",
+                "latitude": "-8.85000000",
+                "longitude": "34.83333000"
+            },
+            {
+                "name": "Makungu",
+                "latitude": "-8.73333000",
+                "longitude": "35.28333000"
+            },
+            {
+                "name": "Makuyuni",
+                "latitude": "-4.73333000",
+                "longitude": "38.10000000"
+            },
+            {
+                "name": "Malampaka",
+                "latitude": "-3.13333000",
+                "longitude": "33.53333000"
+            },
+            {
+                "name": "Malangali",
+                "latitude": "-8.56667000",
+                "longitude": "34.85000000"
+            },
+            {
+                "name": "Malinyi",
+                "latitude": "-8.93333000",
+                "longitude": "36.13333000"
+            },
+            {
+                "name": "Malya",
+                "latitude": "-2.98333000",
+                "longitude": "33.51667000"
+            },
+            {
+                "name": "Manda",
+                "latitude": "-10.46667000",
+                "longitude": "34.58333000"
+            },
+            {
+                "name": "Maneromango",
+                "latitude": "-7.19880000",
+                "longitude": "38.78478000"
+            },
+            {
+                "name": "Maposeni",
+                "latitude": "-10.58333000",
+                "longitude": "35.40000000"
+            },
+            {
+                "name": "Maramba",
+                "latitude": "-5.05000000",
+                "longitude": "38.61667000"
+            },
+            {
+                "name": "Marangu",
+                "latitude": "-3.28333000",
+                "longitude": "37.51667000"
+            },
+            {
+                "name": "Marangu",
+                "latitude": "-3.28333000",
+                "longitude": "37.51667000"
+            },
+            {
+                "name": "Masasi",
+                "latitude": "-10.71667000",
+                "longitude": "38.80000000"
+            },
+            {
+                "name": "Masuguru",
+                "latitude": "-11.36667000",
+                "longitude": "38.41667000"
+            },
+            {
+                "name": "Masukulu",
+                "latitude": "-9.40000000",
+                "longitude": "33.75000000"
+            },
+            {
+                "name": "Masumbwe",
+                "latitude": "-3.63333000",
+                "longitude": "32.18333000"
+            },
+            {
+                "name": "Maswa",
+                "latitude": "-2.68333000",
+                "longitude": "33.98333000"
+            },
+            {
+                "name": "Matai",
+                "latitude": "-8.30000000",
+                "longitude": "31.51667000"
+            },
+            {
+                "name": "Matamba",
+                "latitude": "-8.98333000",
+                "longitude": "33.96667000"
+            },
+            {
+                "name": "Matiri",
+                "latitude": "-10.75000000",
+                "longitude": "34.90000000"
+            },
+            {
+                "name": "Matonga",
+                "latitude": "-2.38333000",
+                "longitude": "34.08333000"
+            },
+            {
+                "name": "Matui",
+                "latitude": "-4.80000000",
+                "longitude": "38.25000000"
+            },
+            {
+                "name": "Mazinde",
+                "latitude": "-4.80000000",
+                "longitude": "38.21667000"
+            },
+            {
+                "name": "Mbamba Bay",
+                "latitude": "-11.28333000",
+                "longitude": "34.76667000"
+            },
+            {
+                "name": "Mbekenyera",
+                "latitude": "-10.00000000",
+                "longitude": "38.98333000"
+            },
+            {
+                "name": "Mbeya",
+                "latitude": "-8.90000000",
+                "longitude": "33.45000000"
+            },
+            {
+                "name": "Mbinga",
+                "latitude": "-10.93333000",
+                "longitude": "35.01667000"
+            },
+            {
+                "name": "Mbuguni",
+                "latitude": "-3.56667000",
+                "longitude": "36.95000000"
+            },
+            {
+                "name": "Mbulu",
+                "latitude": "-3.85000000",
+                "longitude": "35.53333000"
+            },
+            {
+                "name": "Mbumi",
+                "latitude": "-7.90577000",
+                "longitude": "39.21047000"
+            },
+            {
+                "name": "Merelani",
+                "latitude": "-3.56182000",
+                "longitude": "36.97895000"
+            },
+            {
+                "name": "Meru",
+                "latitude": "-3.30500000",
+                "longitude": "36.80100000"
+            },
+            {
+                "name": "Mgandu",
+                "latitude": "-5.95000000",
+                "longitude": "34.13333000"
+            },
+            {
+                "name": "Mhango",
+                "latitude": "-3.28333000",
+                "longitude": "32.85000000"
+            },
+            {
+                "name": "Micheweni",
+                "latitude": "-4.96667000",
+                "longitude": "39.83333000"
+            },
+            {
+                "name": "Mikumi",
+                "latitude": "-7.40409000",
+                "longitude": "36.98309000"
+            },
+            {
+                "name": "Mingoyo",
+                "latitude": "-10.10526000",
+                "longitude": "39.61859000"
+            },
+            {
+                "name": "Misasi",
+                "latitude": "-3.00000000",
+                "longitude": "33.08333000"
+            },
+            {
+                "name": "Misungwi",
+                "latitude": "-2.85000000",
+                "longitude": "33.08333000"
+            },
+            {
+                "name": "Mkokotoni",
+                "latitude": "-5.87506000",
+                "longitude": "39.25523000"
+            },
+            {
+                "name": "Mkuranga",
+                "latitude": "-7.27000000",
+                "longitude": "39.20000000"
+            },
+            {
+                "name": "Mlalo",
+                "latitude": "-4.93333000",
+                "longitude": "38.93333000"
+            },
+            {
+                "name": "Mlandizi",
+                "latitude": "-6.70000000",
+                "longitude": "38.73333000"
+            },
+            {
+                "name": "Mlangali",
+                "latitude": "-9.78333000",
+                "longitude": "34.51667000"
+            },
+            {
+                "name": "Mlimba",
+                "latitude": "-8.80000000",
+                "longitude": "35.81667000"
+            },
+            {
+                "name": "Mlowo",
+                "latitude": "-9.00000000",
+                "longitude": "32.98333333"
+            },
+            {
+                "name": "Monduli",
+                "latitude": "-3.30000000",
+                "longitude": "36.45000000"
+            },
+            {
+                "name": "Morogoro",
+                "latitude": "-6.82102000",
+                "longitude": "37.66122000"
+            },
+            {
+                "name": "Moshi",
+                "latitude": "-3.35000000",
+                "longitude": "37.33333000"
+            },
+            {
+                "name": "Moshi",
+                "latitude": "-3.33488333",
+                "longitude": "37.34038056"
+            },
+            {
+                "name": "Mpanda",
+                "latitude": "-6.34379000",
+                "longitude": "31.06951000"
+            },
+            {
+                "name": "Mpuguso",
+                "latitude": "-9.31666667",
+                "longitude": "33.65000000"
+            },
+            {
+                "name": "Mpwapwa",
+                "latitude": "-6.35000000",
+                "longitude": "36.48333000"
+            },
+            {
+                "name": "Msanga",
+                "latitude": "-6.05000000",
+                "longitude": "36.03333000"
+            },
+            {
+                "name": "Msowero",
+                "latitude": "-6.53333000",
+                "longitude": "37.20000000"
+            },
+            {
+                "name": "Mtama",
+                "latitude": "-10.30000000",
+                "longitude": "39.36667000"
+            },
+            {
+                "name": "Mtambile",
+                "latitude": "-5.38333000",
+                "longitude": "39.70000000"
+            },
+            {
+                "name": "Mtimbira",
+                "latitude": "-8.78333000",
+                "longitude": "36.35000000"
+            },
+            {
+                "name": "Mtinko",
+                "latitude": "-4.55000000",
+                "longitude": "34.85000000"
+            },
+            {
+                "name": "Mto wa Mbu",
+                "latitude": "-3.35000000",
+                "longitude": "35.85000000"
+            },
+            {
+                "name": "Mtwango",
+                "latitude": "-9.01667000",
+                "longitude": "34.80000000"
+            },
+            {
+                "name": "Mtwara",
+                "latitude": "-10.26667000",
+                "longitude": "40.18333000"
+            },
+            {
+                "name": "Mugango",
+                "latitude": "-1.68333000",
+                "longitude": "33.70000000"
+            },
+            {
+                "name": "Mugumu",
+                "latitude": "-1.85000000",
+                "longitude": "34.70000000"
+            },
+            {
+                "name": "Muheza",
+                "latitude": "-5.16667000",
+                "longitude": "38.78333000"
+            },
+            {
+                "name": "Mungaa",
+                "latitude": "-4.96667000",
+                "longitude": "34.88333000"
+            },
+            {
+                "name": "Muriti",
+                "latitude": "-1.98333000",
+                "longitude": "32.91667000"
+            },
+            {
+                "name": "Musoma",
+                "latitude": "-1.50000000",
+                "longitude": "33.80000000"
+            },
+            {
+                "name": "Mvomero",
+                "latitude": "-6.25000000",
+                "longitude": "38.66667000"
+            },
+            {
+                "name": "Mvomero District",
+                "latitude": "-6.30000000",
+                "longitude": "37.45000000"
+            },
+            {
+                "name": "Mwadui",
+                "latitude": "-3.55000000",
+                "longitude": "33.60000000"
+            },
+            {
+                "name": "Mwandiga",
+                "latitude": "-4.83000000",
+                "longitude": "29.65806000"
+            },
+            {
+                "name": "Mwanga",
+                "latitude": "-4.80000000",
+                "longitude": "38.20000000"
+            },
+            {
+                "name": "Mwansanga",
+                "latitude": "-8.76666667",
+                "longitude": "33.53333333"
+            },
+            {
+                "name": "Mwanza",
+                "latitude": "-2.51667000",
+                "longitude": "32.90000000"
+            },
+            {
+                "name": "Mwaya",
+                "latitude": "-9.55000000",
+                "longitude": "33.95000000"
+            },
+            {
+                "name": "Mwembe",
+                "latitude": "-4.15000000",
+                "longitude": "37.85000000"
+            },
+            {
+                "name": "Naberera",
+                "latitude": "-4.20000000",
+                "longitude": "36.93333000"
+            },
+            {
+                "name": "Nachingwea",
+                "latitude": "-10.37250000",
+                "longitude": "38.76251000"
+            },
+            {
+                "name": "Nakatunguru",
+                "latitude": "-2.11667000",
+                "longitude": "33.06667000"
+            },
+            {
+                "name": "Namalenga",
+                "latitude": "-10.95000000",
+                "longitude": "39.10000000"
+            },
+            {
+                "name": "Namanga",
+                "latitude": "-2.55116000",
+                "longitude": "36.78377000"
+            },
+            {
+                "name": "Namanyere",
+                "latitude": "-7.51667000",
+                "longitude": "31.05000000"
+            },
+            {
+                "name": "Namikupa",
+                "latitude": "-10.83333000",
+                "longitude": "39.60000000"
+            },
+            {
+                "name": "Nanganga",
+                "latitude": "-10.38333000",
+                "longitude": "39.15000000"
+            },
+            {
+                "name": "Nangomba",
+                "latitude": "-10.90000000",
+                "longitude": "38.50000000"
+            },
+            {
+                "name": "Nangwa",
+                "latitude": "-4.46667000",
+                "longitude": "35.45000000"
+            },
+            {
+                "name": "Nanhyanga",
+                "latitude": "-10.80000000",
+                "longitude": "39.55000000"
+            },
+            {
+                "name": "Nansio",
+                "latitude": "-2.13333000",
+                "longitude": "33.05000000"
+            },
+            {
+                "name": "Nanyamba",
+                "latitude": "-10.68333000",
+                "longitude": "39.83333000"
+            },
+            {
+                "name": "Ndago",
+                "latitude": "-4.60000000",
+                "longitude": "34.35000000"
+            },
+            {
+                "name": "Newala Kisimani",
+                "latitude": "-10.95000000",
+                "longitude": "39.28333000"
+            },
+            {
+                "name": "Nganane",
+                "latitude": "-6.40000000",
+                "longitude": "39.55000000"
+            },
+            {
+                "name": "Ngara",
+                "latitude": "-2.51222000",
+                "longitude": "30.65583000"
+            },
+            {
+                "name": "Ngerengere",
+                "latitude": "-6.75000000",
+                "longitude": "38.11667000"
+            },
+            {
+                "name": "Ngorongoro",
+                "latitude": "-3.23973000",
+                "longitude": "35.48747000"
+            },
+            {
+                "name": "Ngudu",
+                "latitude": "-2.96667000",
+                "longitude": "33.33333000"
+            },
+            {
+                "name": "Nguruka",
+                "latitude": "-5.10917000",
+                "longitude": "31.04194000"
+            },
+            {
+                "name": "Njombe",
+                "latitude": "-9.34917000",
+                "longitude": "34.77167000"
+            },
+            {
+                "name": "Nkoaranga",
+                "latitude": "-3.33333000",
+                "longitude": "36.80000000"
+            },
+            {
+                "name": "Nkove",
+                "latitude": "-7.95000000",
+                "longitude": "30.85000000"
+            },
+            {
+                "name": "Nshamba",
+                "latitude": "-1.79833000",
+                "longitude": "31.55111000"
+            },
+            {
+                "name": "Nsunga",
+                "latitude": "-1.14389000",
+                "longitude": "31.39472000"
+            },
+            {
+                "name": "Nungwi",
+                "latitude": "-5.72651000",
+                "longitude": "39.29870000"
+            },
+            {
+                "name": "Nyakabindi",
+                "latitude": "-2.63333000",
+                "longitude": "33.98333000"
+            },
+            {
+                "name": "Nyakahanga",
+                "latitude": "-1.60333000",
+                "longitude": "31.14139000"
+            },
+            {
+                "name": "Nyalikungu",
+                "latitude": "-3.18333000",
+                "longitude": "33.78333000"
+            },
+            {
+                "name": "Nyamuswa",
+                "latitude": "-1.90000000",
+                "longitude": "34.01667000"
+            },
+            {
+                "name": "Nyangao",
+                "latitude": "-10.33333000",
+                "longitude": "39.28333000"
+            },
+            {
+                "name": "Nyanguge",
+                "latitude": "-2.55000000",
+                "longitude": "33.20000000"
+            },
+            {
+                "name": "Old Shinyanga",
+                "latitude": "-3.55000000",
+                "longitude": "33.40000000"
+            },
+            {
+                "name": "Pangani",
+                "latitude": "-5.42526000",
+                "longitude": "38.97473000"
+            },
+            {
+                "name": "Poli",
+                "latitude": "-3.33333000",
+                "longitude": "36.80000000"
+            },
+            {
+                "name": "Puma",
+                "latitude": "-5.00000000",
+                "longitude": "34.73333000"
+            },
+            {
+                "name": "Ruangwa",
+                "latitude": "-10.06667000",
+                "longitude": "38.93333000"
+            },
+            {
+                "name": "Rulenge",
+                "latitude": "-2.71750000",
+                "longitude": "30.63250000"
+            },
+            {
+                "name": "Same",
+                "latitude": "-4.22199000",
+                "longitude": "37.88278000"
+            },
+            {
+                "name": "Same",
+                "latitude": "-4.06666667",
+                "longitude": "37.78333333"
+            },
+            {
+                "name": "Sepuka",
+                "latitude": "-4.75000000",
+                "longitude": "34.53333000"
+            },
+            {
+                "name": "Shelui",
+                "latitude": "-4.36667000",
+                "longitude": "34.20000000"
+            },
+            {
+                "name": "Shinyanga",
+                "latitude": "-3.66393000",
+                "longitude": "33.42118000"
+            },
+            {
+                "name": "Sikonge",
+                "latitude": "-5.63333000",
+                "longitude": "32.76667000"
+            },
+            {
+                "name": "Singida",
+                "latitude": "-4.81629000",
+                "longitude": "34.74358000"
+            },
+            {
+                "name": "Sirari",
+                "latitude": "-1.25367000",
+                "longitude": "34.47596000"
+            },
+            {
+                "name": "Sokoni",
+                "latitude": "-6.43333000",
+                "longitude": "39.55000000"
+            },
+            {
+                "name": "Somanda",
+                "latitude": "-3.36667000",
+                "longitude": "33.95000000"
+            },
+            {
+                "name": "Songea",
+                "latitude": "-10.68333000",
+                "longitude": "35.65000000"
+            },
+            {
+                "name": "Songwa",
+                "latitude": "-3.51667000",
+                "longitude": "33.51667000"
+            },
+            {
+                "name": "Soni",
+                "latitude": "-4.85000000",
+                "longitude": "38.36667000"
+            },
+            {
+                "name": "Sumbawanga",
+                "latitude": "-7.96667000",
+                "longitude": "31.61667000"
+            },
+            {
+                "name": "Tabora",
+                "latitude": "-5.01622000",
+                "longitude": "32.82663000"
+            },
+            {
+                "name": "Tandahimba",
+                "latitude": "-10.75000000",
+                "longitude": "39.63333000"
+            },
+            {
+                "name": "Tanga",
+                "latitude": "-5.06893000",
+                "longitude": "39.09875000"
+            },
+            {
+                "name": "Tinde",
+                "latitude": "-3.88333000",
+                "longitude": "33.20000000"
+            },
+            {
+                "name": "Tingi",
+                "latitude": "-11.30000000",
+                "longitude": "35.03333000"
+            },
+            {
+                "name": "Tukuyu",
+                "latitude": "-9.25833333",
+                "longitude": "33.64166667"
+            },
+            {
+                "name": "Tumbi",
+                "latitude": "-5.06667000",
+                "longitude": "32.73333000"
+            },
+            {
+                "name": "Tunduma",
+                "latitude": "-9.30000000",
+                "longitude": "32.76670000"
+            },
+            {
+                "name": "Ugweno",
+                "latitude": "-3.65000000",
+                "longitude": "37.65000000"
+            },
+            {
+                "name": "Ulanga",
+                "latitude": "-8.34361000",
+                "longitude": "34.28970000"
+            },
+            {
+                "name": "Usa River",
+                "latitude": "-3.36667000",
+                "longitude": "36.85000000"
+            },
+            {
+                "name": "Usagara",
+                "latitude": "-2.68333000",
+                "longitude": "33.00000000"
+            },
+            {
+                "name": "Usevia",
+                "latitude": "-7.10000000",
+                "longitude": "31.23333000"
+            },
+            {
+                "name": "Ushirombo",
+                "latitude": "-3.49194000",
+                "longitude": "31.96389000"
+            },
+            {
+                "name": "Usoke",
+                "latitude": "-5.16667000",
+                "longitude": "32.35000000"
+            },
+            {
+                "name": "Utete",
+                "latitude": "-7.98598000",
+                "longitude": "38.75795000"
+            },
+            {
+                "name": "Uvinza",
+                "latitude": "-5.10361000",
+                "longitude": "30.39111000"
+            },
+            {
+                "name": "Uwelini",
+                "latitude": "-5.40000000",
+                "longitude": "39.68333000"
+            },
+            {
+                "name": "Uyovu",
+                "latitude": "-3.28333000",
+                "longitude": "31.52583000"
+            },
+            {
+                "name": "Vikindu",
+                "latitude": "-7.00667000",
+                "longitude": "39.29849000"
+            },
+            {
+                "name": "Wete",
+                "latitude": "-5.05589000",
+                "longitude": "39.72938000"
+            },
+            {
+                "name": "Zanzibar",
+                "latitude": "-6.16394000",
+                "longitude": "39.19793000"
+            }
+        ]
+    },
+    {
+        "name": "Uganda",
+        "native": "",
+        "code": "UG",
+        "phone": [
+            256
+        ],
+        "continent": "AF",
+        "capital": "Kampala",
+        "currency": [
+            "UGX"
+        ],
+        "languages": [
+            "en",
+            "sw"
+        ],
+        "cities": [
+            {
+                "name": "Adjumani",
+                "latitude": "3.37786000",
+                "longitude": "31.79090000"
+            },
+            {
+                "name": "Amudat",
+                "latitude": "1.95000000",
+                "longitude": "34.95000000"
+            },
+            {
+                "name": "Apac",
+                "latitude": "1.97556000",
+                "longitude": "32.53861000"
+            },
+            {
+                "name": "Arua",
+                "latitude": "3.02013000",
+                "longitude": "30.91105000"
+            },
+            {
+                "name": "Bugembe",
+                "latitude": "0.48213000",
+                "longitude": "33.24065000"
+            },
+            {
+                "name": "Bugiri",
+                "latitude": "0.57139000",
+                "longitude": "33.74167000"
+            },
+            {
+                "name": "Bukomansimbi District",
+                "latitude": "-0.12855000",
+                "longitude": "31.62527000"
+            },
+            {
+                "name": "Bukwa District",
+                "latitude": "1.27115000",
+                "longitude": "34.66778000"
+            },
+            {
+                "name": "Bulambuli District",
+                "latitude": "1.32055000",
+                "longitude": "34.28062000"
+            },
+            {
+                "name": "Bundibugyo",
+                "latitude": "0.71117000",
+                "longitude": "30.06469000"
+            },
+            {
+                "name": "Busembatia",
+                "latitude": "0.77725000",
+                "longitude": "33.62364000"
+            },
+            {
+                "name": "Busia",
+                "latitude": "0.46588000",
+                "longitude": "34.09221000"
+            },
+            {
+                "name": "Buvuma District",
+                "latitude": "-0.36744000",
+                "longitude": "33.20071000"
+            },
+            {
+                "name": "Buwenge",
+                "latitude": "0.64996000",
+                "longitude": "33.17128000"
+            },
+            {
+                "name": "Bweyogerere",
+                "latitude": "0.35773000",
+                "longitude": "32.66332000"
+            },
+            {
+                "name": "Bwizibwera",
+                "latitude": "-0.59167000",
+                "longitude": "30.62861000"
+            },
+            {
+                "name": "Byakabanda",
+                "latitude": "-0.74250000",
+                "longitude": "31.40639000"
+            },
+            {
+                "name": "Entebbe",
+                "latitude": "0.05621000",
+                "longitude": "32.47949000"
+            },
+            {
+                "name": "Fort Portal",
+                "latitude": "0.66174000",
+                "longitude": "30.27480000"
+            },
+            {
+                "name": "Gomba District",
+                "latitude": "0.20017000",
+                "longitude": "31.75023000"
+            },
+            {
+                "name": "Gulu",
+                "latitude": "2.77457000",
+                "longitude": "32.29899000"
+            },
+            {
+                "name": "Hoima",
+                "latitude": "1.43314000",
+                "longitude": "31.35241000"
+            },
+            {
+                "name": "Ibanda",
+                "latitude": "-0.13398000",
+                "longitude": "30.49616000"
+            },
+            {
+                "name": "Ibanda District",
+                "latitude": "-0.08100000",
+                "longitude": "30.55600000"
+            },
+            {
+                "name": "Iganga",
+                "latitude": "0.60917000",
+                "longitude": "33.46861000"
+            },
+            {
+                "name": "Jinja",
+                "latitude": "0.43902000",
+                "longitude": "33.20317000"
+            },
+            {
+                "name": "Kabale",
+                "latitude": "-1.24857000",
+                "longitude": "29.98993000"
+            },
+            {
+                "name": "Kagadi",
+                "latitude": "0.93778000",
+                "longitude": "30.80889000"
+            },
+            {
+                "name": "Kajansi",
+                "latitude": "0.21548000",
+                "longitude": "32.53453000"
+            },
+            {
+                "name": "Kampala",
+                "latitude": "0.31628000",
+                "longitude": "32.58219000"
+            },
+            {
+                "name": "Kampala District",
+                "latitude": "0.33508000",
+                "longitude": "32.58313000"
+            },
+            {
+                "name": "Kamuli",
+                "latitude": "0.94722000",
+                "longitude": "33.11972000"
+            },
+            {
+                "name": "Kamwenge",
+                "latitude": "0.18660000",
+                "longitude": "30.45393000"
+            },
+            {
+                "name": "Kanoni",
+                "latitude": "0.17722000",
+                "longitude": "31.88111000"
+            },
+            {
+                "name": "Kanungu",
+                "latitude": "-0.95750000",
+                "longitude": "29.78972000"
+            },
+            {
+                "name": "Kapchorwa",
+                "latitude": "1.40096000",
+                "longitude": "34.45038000"
+            },
+            {
+                "name": "Kasese",
+                "latitude": "0.18333000",
+                "longitude": "30.08333000"
+            },
+            {
+                "name": "Kayunga",
+                "latitude": "0.70250000",
+                "longitude": "32.88861000"
+            },
+            {
+                "name": "Kibale",
+                "latitude": "0.80000000",
+                "longitude": "31.06667000"
+            },
+            {
+                "name": "Kiboga",
+                "latitude": "0.91611000",
+                "longitude": "31.77417000"
+            },
+            {
+                "name": "Kibuku District",
+                "latitude": "1.05000000",
+                "longitude": "33.80879000"
+            },
+            {
+                "name": "Kigorobya",
+                "latitude": "1.61620000",
+                "longitude": "31.30890000"
+            },
+            {
+                "name": "Kilembe",
+                "latitude": "0.19835000",
+                "longitude": "30.01302000"
+            },
+            {
+                "name": "Kireka",
+                "latitude": "0.34750000",
+                "longitude": "32.64917000"
+            },
+            {
+                "name": "Kiruhura",
+                "latitude": "-0.19664000",
+                "longitude": "30.84446000"
+            },
+            {
+                "name": "Kisoro",
+                "latitude": "-1.28538000",
+                "longitude": "29.68497000"
+            },
+            {
+                "name": "Kitgum",
+                "latitude": "3.27833000",
+                "longitude": "32.88667000"
+            },
+            {
+                "name": "Kotido",
+                "latitude": "2.98056000",
+                "longitude": "34.13306000"
+            },
+            {
+                "name": "Kumi",
+                "latitude": "1.46083000",
+                "longitude": "33.93611000"
+            },
+            {
+                "name": "Kyenjojo",
+                "latitude": "0.63278000",
+                "longitude": "30.62139000"
+            },
+            {
+                "name": "Kyotera",
+                "latitude": "-0.61556000",
+                "longitude": "31.51750000"
+            },
+            {
+                "name": "Lira",
+                "latitude": "2.24990000",
+                "longitude": "32.89985000"
+            },
+            {
+                "name": "Lugazi",
+                "latitude": "0.36788000",
+                "longitude": "32.93760000"
+            },
+            {
+                "name": "Luwero",
+                "latitude": "0.84917000",
+                "longitude": "32.47306000"
+            },
+            {
+                "name": "Lyantonde",
+                "latitude": "-0.40306000",
+                "longitude": "31.15722000"
+            },
+            {
+                "name": "Margherita",
+                "latitude": "0.41861000",
+                "longitude": "29.89111000"
+            },
+            {
+                "name": "Masaka",
+                "latitude": "-0.33379000",
+                "longitude": "31.73409000"
+            },
+            {
+                "name": "Masindi",
+                "latitude": "1.67444000",
+                "longitude": "31.71500000"
+            },
+            {
+                "name": "Masindi Port",
+                "latitude": "1.69606000",
+                "longitude": "32.08608000"
+            },
+            {
+                "name": "Mayuge",
+                "latitude": "0.45972000",
+                "longitude": "33.48028000"
+            },
+            {
+                "name": "Mbale",
+                "latitude": "1.08209000",
+                "longitude": "34.17503000"
+            },
+            {
+                "name": "Mbarara",
+                "latitude": "-0.60467000",
+                "longitude": "30.64851000"
+            },
+            {
+                "name": "Mityana",
+                "latitude": "0.41750000",
+                "longitude": "32.02278000"
+            },
+            {
+                "name": "Moroto",
+                "latitude": "2.53453000",
+                "longitude": "34.66659000"
+            },
+            {
+                "name": "Moyo",
+                "latitude": "3.66088000",
+                "longitude": "31.72474000"
+            },
+            {
+                "name": "Mpigi",
+                "latitude": "0.22500000",
+                "longitude": "32.31361000"
+            },
+            {
+                "name": "Mubende",
+                "latitude": "0.55849000",
+                "longitude": "31.39489000"
+            },
+            {
+                "name": "Mubende District",
+                "latitude": "0.50000000",
+                "longitude": "31.50000000"
+            },
+            {
+                "name": "Muhororo",
+                "latitude": "0.93806000",
+                "longitude": "30.75944000"
+            },
+            {
+                "name": "Mukono",
+                "latitude": "0.35333000",
+                "longitude": "32.75528000"
+            },
+            {
+                "name": "Nakasongola",
+                "latitude": "1.30889000",
+                "longitude": "32.45639000"
+            },
+            {
+                "name": "Namasuba",
+                "latitude": "0.68944000",
+                "longitude": "32.42139000"
+            },
+            {
+                "name": "Nebbi",
+                "latitude": "2.47826000",
+                "longitude": "31.08893000"
+            },
+            {
+                "name": "Njeru",
+                "latitude": "0.44166000",
+                "longitude": "33.17917000"
+            },
+            {
+                "name": "Ntungamo",
+                "latitude": "-0.87944000",
+                "longitude": "30.26417000"
+            },
+            {
+                "name": "Nyachera",
+                "latitude": "-0.90000000",
+                "longitude": "30.41667000"
+            },
+            {
+                "name": "Otuke District",
+                "latitude": "2.48372000",
+                "longitude": "33.34201000"
+            },
+            {
+                "name": "Oyam District",
+                "latitude": "2.38129000",
+                "longitude": "32.50071000"
+            },
+            {
+                "name": "Pader",
+                "latitude": "3.05000000",
+                "longitude": "33.21667000"
+            },
+            {
+                "name": "Pader Palwo",
+                "latitude": "2.80056000",
+                "longitude": "33.13500000"
+            },
+            {
+                "name": "Paidha",
+                "latitude": "2.41669000",
+                "longitude": "30.98551000"
+            },
+            {
+                "name": "Pallisa",
+                "latitude": "1.14500000",
+                "longitude": "33.70944000"
+            },
+            {
+                "name": "Rukungiri",
+                "latitude": "-0.84111000",
+                "longitude": "29.94194000"
+            },
+            {
+                "name": "Sembabule",
+                "latitude": "-0.07722000",
+                "longitude": "31.45667000"
+            },
+            {
+                "name": "Sironko",
+                "latitude": "1.23132000",
+                "longitude": "34.24773000"
+            },
+            {
+                "name": "Soroti",
+                "latitude": "1.71464000",
+                "longitude": "33.61113000"
+            },
+            {
+                "name": "Tororo",
+                "latitude": "0.69299000",
+                "longitude": "34.18085000"
+            },
+            {
+                "name": "Wakiso",
+                "latitude": "0.40444000",
+                "longitude": "32.45944000"
+            },
+            {
+                "name": "Wakiso District",
+                "latitude": "0.23763000",
+                "longitude": "32.47836000"
+            },
+            {
+                "name": "Wobulenzi",
+                "latitude": "0.72833000",
+                "longitude": "32.51222000"
+            },
+            {
+                "name": "Yumbe",
+                "latitude": "3.46506000",
+                "longitude": "31.24689000"
+            }
+        ]
+    },
+    {
+        "name": "Rwanda",
+        "native": "",
+        "code": "RW",
+        "phone": [
+            250
+        ],
+        "continent": "AF",
+        "capital": "Kigali",
+        "currency": [
+            "RWF"
+        ],
+        "languages": [
+            "rw",
+            "en",
+            "fr"
+        ],
+        "cities": [
+            {
+                "name": "Butare",
+                "latitude": "-2.59667000",
+                "longitude": "29.73944000"
+            },
+            {
+                "name": "Byumba",
+                "latitude": "-1.57630000",
+                "longitude": "30.06750000"
+            },
+            {
+                "name": "Cyangugu",
+                "latitude": "-2.48460000",
+                "longitude": "28.90750000"
+            },
+            {
+                "name": "Eglise Catholique Centrale GIKO",
+                "latitude": "-1.93653000",
+                "longitude": "29.80610000"
+            },
+            {
+                "name": "Gisenyi",
+                "latitude": "-1.70278000",
+                "longitude": "29.25639000"
+            },
+            {
+                "name": "Gitarama",
+                "latitude": "-2.07444000",
+                "longitude": "29.75667000"
+            },
+            {
+                "name": "Kibungo",
+                "latitude": "-2.15970000",
+                "longitude": "30.54270000"
+            },
+            {
+                "name": "Kibuye",
+                "latitude": "-2.06028000",
+                "longitude": "29.34778000"
+            },
+            {
+                "name": "Kigali",
+                "latitude": "-1.94995000",
+                "longitude": "30.05885000"
+            },
+            {
+                "name": "Musanze",
+                "latitude": "-1.49984000",
+                "longitude": "29.63497000"
+            },
+            {
+                "name": "Nzega",
+                "latitude": "-2.47900000",
+                "longitude": "29.55640000"
+            },
+            {
+                "name": "Rwamagana",
+                "latitude": "-1.94870000",
+                "longitude": "30.43470000"
+            }
+        ]
+    },
+    {
+        "name": "Burundi",
+        "native": "",
+        "code": "BI",
+        "phone": [
+            257
+        ],
+        "continent": "AF",
+        "capital": "Bujumbura",
+        "currency": [
+            "BIF"
+        ],
+        "languages": [
+            "fr",
+            "rn"
+        ],
+        "cities": [
+            {
+                "name": "Bubanza",
+                "latitude": "-3.08040000",
+                "longitude": "29.39100000"
+            },
+            {
+                "name": "Bujumbura",
+                "latitude": "-3.38193000",
+                "longitude": "29.36142000"
+            },
+            {
+                "name": "Bururi",
+                "latitude": "-3.94877000",
+                "longitude": "29.62438000"
+            },
+            {
+                "name": "Cankuzo",
+                "latitude": "-3.21860000",
+                "longitude": "30.55280000"
+            },
+            {
+                "name": "Cibitoke",
+                "latitude": "-2.88690000",
+                "longitude": "29.12480000"
+            },
+            {
+                "name": "Gitega",
+                "latitude": "-3.42708000",
+                "longitude": "29.92463000"
+            },
+            {
+                "name": "Karuzi",
+                "latitude": "-3.10139000",
+                "longitude": "30.16278000"
+            },
+            {
+                "name": "Kayanza",
+                "latitude": "-2.92210000",
+                "longitude": "29.62930000"
+            },
+            {
+                "name": "Kirundo",
+                "latitude": "-2.58450000",
+                "longitude": "30.09590000"
+            },
+            {
+                "name": "Makamba",
+                "latitude": "-4.13480000",
+                "longitude": "29.80400000"
+            },
+            {
+                "name": "Muramvya",
+                "latitude": "-3.26820000",
+                "longitude": "29.60790000"
+            },
+            {
+                "name": "Muyinga",
+                "latitude": "-2.84510000",
+                "longitude": "30.34140000"
+            },
+            {
+                "name": "Mwaro",
+                "latitude": "-3.51128000",
+                "longitude": "29.70334000"
+            },
+            {
+                "name": "Ngozi",
+                "latitude": "-2.90750000",
+                "longitude": "29.83060000"
+            },
+            {
+                "name": "Rumonge",
+                "latitude": "-3.97360000",
+                "longitude": "29.43860000"
+            },
+            {
+                "name": "Rutana",
+                "latitude": "-3.92790000",
+                "longitude": "29.99200000"
+            },
+            {
+                "name": "Ruyigi",
+                "latitude": "-3.47639000",
+                "longitude": "30.24861000"
+            }
+        ]
+    },
+    {
+        "name": "Democratic Republic of the Congo",
+        "native": "Republique democratique du Congo",
+        "code": "CD",
+        "phone": [
+            243
+        ],
+        "continent": "AF",
+        "capital": "Kinshasa",
+        "currency": [
+            "CDF"
+        ],
+        "languages": [
+            "fr",
+            "ln",
+            "kg",
+            "sw",
+            "lu"
+        ],
+        "cities": [
+            {
+                "name": "Aketi",
+                "latitude": "2.73877000",
+                "longitude": "23.78326000"
+            },
+            {
+                "name": "Bandundu",
+                "latitude": "-3.31687000",
+                "longitude": "17.38063000"
+            },
+            {
+                "name": "Basoko",
+                "latitude": "1.23909000",
+                "longitude": "23.61598000"
+            },
+            {
+                "name": "Beni",
+                "latitude": "0.49113000",
+                "longitude": "29.47306000"
+            },
+            {
+                "name": "Boende",
+                "latitude": "-0.28163000",
+                "longitude": "20.88053000"
+            },
+            {
+                "name": "Bolobo",
+                "latitude": "-2.15800000",
+                "longitude": "16.23249000"
+            },
+            {
+                "name": "Boma",
+                "latitude": "-5.85098000",
+                "longitude": "13.05364000"
+            },
+            {
+                "name": "Bondo",
+                "latitude": "3.81461000",
+                "longitude": "23.68665000"
+            },
+            {
+                "name": "Bongandanga",
+                "latitude": "1.50695000",
+                "longitude": "21.07260000"
+            },
+            {
+                "name": "Bosobolo",
+                "latitude": "4.18980000",
+                "longitude": "19.88330000"
+            },
+            {
+                "name": "Bukama",
+                "latitude": "-9.20443000",
+                "longitude": "25.85475000"
+            },
+            {
+                "name": "Bukavu",
+                "latitude": "-2.49077000",
+                "longitude": "28.84281000"
+            },
+            {
+                "name": "Bulungu",
+                "latitude": "-4.54437000",
+                "longitude": "18.60364000"
+            },
+            {
+                "name": "Bumba",
+                "latitude": "2.18771000",
+                "longitude": "22.46827000"
+            },
+            {
+                "name": "Bunia",
+                "latitude": "1.55941000",
+                "longitude": "30.25224000"
+            },
+            {
+                "name": "Businga",
+                "latitude": "3.33863000",
+                "longitude": "20.88577000"
+            },
+            {
+                "name": "Buta",
+                "latitude": "2.78582000",
+                "longitude": "24.72997000"
+            },
+            {
+                "name": "Butembo",
+                "latitude": "0.14164000",
+                "longitude": "29.29117000"
+            },
+            {
+                "name": "Gandajika",
+                "latitude": "-6.74504000",
+                "longitude": "23.95328000"
+            },
+            {
+                "name": "Gbadolite",
+                "latitude": "4.27900000",
+                "longitude": "21.00284000"
+            },
+            {
+                "name": "Gemena",
+                "latitude": "3.25651000",
+                "longitude": "19.77234000"
+            },
+            {
+                "name": "Goma",
+                "latitude": "-1.67409000",
+                "longitude": "29.22845000"
+            },
+            {
+                "name": "Haut Katanga",
+                "latitude": "-10.46044000",
+                "longitude": "27.94322000"
+            },
+            {
+                "name": "Ilebo",
+                "latitude": "-4.33111000",
+                "longitude": "20.58638000"
+            },
+            {
+                "name": "Inongo",
+                "latitude": "-1.92750000",
+                "longitude": "18.28810000"
+            },
+            {
+                "name": "Isiro",
+                "latitude": "2.77391000",
+                "longitude": "27.61603000"
+            },
+            {
+                "name": "Kabalo",
+                "latitude": "-6.05255000",
+                "longitude": "26.91430000"
+            },
+            {
+                "name": "Kabare",
+                "latitude": "-2.49682000",
+                "longitude": "28.79081000"
+            },
+            {
+                "name": "Kabinda",
+                "latitude": "-6.13791000",
+                "longitude": "24.48179000"
+            },
+            {
+                "name": "Kalemie",
+                "latitude": "-5.94749000",
+                "longitude": "29.19471000"
+            },
+            {
+                "name": "Kambove",
+                "latitude": "-10.87352000",
+                "longitude": "26.59746000"
+            },
+            {
+                "name": "Kamina",
+                "latitude": "-8.73508000",
+                "longitude": "24.99798000"
+            },
+            {
+                "name": "Kampene",
+                "latitude": "-3.59678000",
+                "longitude": "26.66715000"
+            },
+            {
+                "name": "Kasangulu",
+                "latitude": "-4.58330000",
+                "longitude": "15.16554000"
+            },
+            {
+                "name": "Kasongo",
+                "latitude": "-4.42741000",
+                "longitude": "26.66656000"
+            },
+            {
+                "name": "Kasongo-Lunda",
+                "latitude": "-6.47833000",
+                "longitude": "16.81735000"
+            },
+            {
+                "name": "Kikwit",
+                "latitude": "-5.04098000",
+                "longitude": "18.81619000"
+            },
+            {
+                "name": "Kindu",
+                "latitude": "-2.94373000",
+                "longitude": "25.92237000"
+            },
+            {
+                "name": "Kinshasa",
+                "latitude": "-4.32758000",
+                "longitude": "15.31357000"
+            },
+            {
+                "name": "Kipushi",
+                "latitude": "-11.76097000",
+                "longitude": "27.25135000"
+            },
+            {
+                "name": "Kisangani",
+                "latitude": "0.51528000",
+                "longitude": "25.19099000"
+            },
+            {
+                "name": "Kongolo",
+                "latitude": "-5.38532000",
+                "longitude": "27.00029000"
+            },
+            {
+                "name": "Libenge",
+                "latitude": "3.65332000",
+                "longitude": "18.63566000"
+            },
+            {
+                "name": "Likasi",
+                "latitude": "-10.98303000",
+                "longitude": "26.73840000"
+            },
+            {
+                "name": "Lisala",
+                "latitude": "2.15127000",
+                "longitude": "21.51672000"
+            },
+            {
+                "name": "Lodja",
+                "latitude": "-3.52105000",
+                "longitude": "23.60050000"
+            },
+            {
+                "name": "Lubao",
+                "latitude": "-5.38771000",
+                "longitude": "25.74885000"
+            },
+            {
+                "name": "Lubumbashi",
+                "latitude": "-11.66089000",
+                "longitude": "27.47938000"
+            },
+            {
+                "name": "Luebo",
+                "latitude": "-5.35218000",
+                "longitude": "21.42192000"
+            },
+            {
+                "name": "Lukolela",
+                "latitude": "-1.06046000",
+                "longitude": "17.18210000"
+            },
+            {
+                "name": "Lusambo",
+                "latitude": "-4.97503000",
+                "longitude": "23.44391000"
+            },
+            {
+                "name": "Mangai",
+                "latitude": "-4.02328000",
+                "longitude": "19.53385000"
+            },
+            {
+                "name": "Masina",
+                "latitude": "-4.38361000",
+                "longitude": "15.39139000"
+            },
+            {
+                "name": "Matadi",
+                "latitude": "-5.83861000",
+                "longitude": "13.46306000"
+            },
+            {
+                "name": "Mbandaka",
+                "latitude": "0.04865000",
+                "longitude": "18.26034000"
+            },
+            {
+                "name": "Mbanza-Ngungu",
+                "latitude": "-5.25837000",
+                "longitude": "14.85838000"
+            },
+            {
+                "name": "Mbuji-Mayi",
+                "latitude": "-6.13603000",
+                "longitude": "23.58979000"
+            },
+            {
+                "name": "Moanda",
+                "latitude": "-5.92753000",
+                "longitude": "12.37148000"
+            },
+            {
+                "name": "Mushie",
+                "latitude": "-3.01728000",
+                "longitude": "16.92238000"
+            },
+            {
+                "name": "Mweka",
+                "latitude": "-4.85187000",
+                "longitude": "21.55950000"
+            },
+            {
+                "name": "Mwene-Ditu",
+                "latitude": "-7.00906000",
+                "longitude": "23.45278000"
+            },
+            {
+                "name": "Nioki",
+                "latitude": "-2.72037000",
+                "longitude": "17.69001000"
+            },
+            {
+                "name": "Sake",
+                "latitude": "-1.57386000",
+                "longitude": "29.04339000"
+            },
+            {
+                "name": "Tshela",
+                "latitude": "-4.99707000",
+                "longitude": "12.94840000"
+            },
+            {
+                "name": "Tshikapa",
+                "latitude": "-6.41621000",
+                "longitude": "20.79995000"
+            },
+            {
+                "name": "Uvira",
+                "latitude": "-3.39534000",
+                "longitude": "29.13779000"
+            },
+            {
+                "name": "Wamba",
+                "latitude": "2.14838000",
+                "longitude": "27.99466000"
+            },
+            {
+                "name": "Watsa",
+                "latitude": "3.03716000",
+                "longitude": "29.53551000"
+            },
+            {
+                "name": "Yangambi",
+                "latitude": "0.76755000",
+                "longitude": "24.43973000"
+            }
+        ]
+    },
+    {
+        "name": "South Sudan",
+        "native": "",
+        "code": "SS",
+        "phone": [211],
+        "continent": "AF",
+        "capital": "Juba",
+        "currency": [
+            "SSP"
+        ],
+        "languages": [
+            "en"
+        ],
+        "cities": [
+            {
+                "name": "Yirol",
+                "latitude": "6.55250000",
+                "longitude": "30.49806000"
+            },
+            {
+                "name": "Juba",
+                "latitude": "4.8500",
+                "longitude": "31.6000"
+              },
+              {
+                "name": "Bor",
+                "latitude": "6.2125",
+                "longitude": "31.5608"
+              },
+              {
+                "name": "Wau",
+                "latitude": "7.7000",
+                "longitude": "28.0000"
+              },
+              {
+                "name": "Malakal",
+                "latitude": "9.5500",
+                "longitude": "31.6500"
+              },
+              {
+                "name": "Kuacjok",
+                "latitude": "8.3100",
+                "longitude": "27.9900"
+              },
+              {
+                "name": "Aweil",
+                "latitude": "8.7800",
+                "longitude": "27.4000"
+              },
+              {
+                "name": "Yambio",
+                "latitude": "4.5650",
+                "longitude": "28.3750"
+              },
+              {
+                "name": "Rumbek",
+                "latitude": "6.8060",
+                "longitude": "29.6760"
+              },
+              {
+                "name": "Torit",
+                "latitude": "4.4081",
+                "longitude": "32.5750"
+              },
+              {
+                "name": "Bentiu",
+                "latitude": "9.2600",
+                "longitude": "29.8000"
+              }
+        ]
+    },
+    {
+        "name": "Somalia",
+        "native": "Soomaaliya",
+        "code": "SO",
+        "phone": [
+            252
+        ],
+        "continent": "AF",
+        "capital": "Mogadishu",
+        "currency": [
+            "SOS"
+        ],
+        "languages": [
+            "so",
+            "ar"
+        ],
+        "cities": [
+            {
+                "name": "Afgooye",
+                "latitude": "2.13810000",
+                "longitude": "45.12120000"
+            },
+            {
+                "name": "Baardheere",
+                "latitude": "2.34464000",
+                "longitude": "42.27644000"
+            },
+            {
+                "name": "Baidoa",
+                "latitude": "3.11383000",
+                "longitude": "43.64980000"
+            },
+            {
+                "name": "Bandarbeyla",
+                "latitude": "9.49420000",
+                "longitude": "50.81220000"
+            },
+            {
+                "name": "Bargaal",
+                "latitude": "11.28636000",
+                "longitude": "51.07730000"
+            },
+            {
+                "name": "Beledweyne",
+                "latitude": "4.73583000",
+                "longitude": "45.20361000"
+            },
+            {
+                "name": "Bereeda",
+                "latitude": "11.87037000",
+                "longitude": "51.05795000"
+            },
+            {
+                "name": "Bosaso",
+                "latitude": "11.28421000",
+                "longitude": "49.18158000"
+            },
+            {
+                "name": "Burao",
+                "latitude": "9.52213000",
+                "longitude": "45.53363000"
+            },
+            {
+                "name": "Buulobarde",
+                "latitude": "3.85375000",
+                "longitude": "45.56744000"
+            },
+            {
+                "name": "Buur Gaabo",
+                "latitude": "-1.21917000",
+                "longitude": "41.83725000"
+            },
+            {
+                "name": "Buurhakaba",
+                "latitude": "2.80257000",
+                "longitude": "44.07805000"
+            },
+            {
+                "name": "Cadale",
+                "latitude": "2.76030000",
+                "longitude": "46.32220000"
+            },
+            {
+                "name": "Caluula",
+                "latitude": "11.96611000",
+                "longitude": "50.75694000"
+            },
+            {
+                "name": "Ceek",
+                "latitude": "8.99907000",
+                "longitude": "45.35824000"
+            },
+            {
+                "name": "Ceelbuur",
+                "latitude": "4.68501000",
+                "longitude": "46.61760000"
+            },
+            {
+                "name": "Ceeldheer",
+                "latitude": "3.84878000",
+                "longitude": "47.18064000"
+            },
+            {
+                "name": "Ceerigaabo",
+                "latitude": "10.61616000",
+                "longitude": "47.36795000"
+            },
+            {
+                "name": "Dhuusamarreeb",
+                "latitude": "5.53597000",
+                "longitude": "46.38666000"
+            },
+            {
+                "name": "Dujuuma",
+                "latitude": "1.25311000",
+                "longitude": "42.57377000"
+            },
+            {
+                "name": "Eyl",
+                "latitude": "7.98030000",
+                "longitude": "49.81640000"
+            },
+            {
+                "name": "Gaalkacyo",
+                "latitude": "6.76972000",
+                "longitude": "47.43083000"
+            },
+            {
+                "name": "Garbahaarrey",
+                "latitude": "3.32892000",
+                "longitude": "42.22091000"
+            },
+            {
+                "name": "Garoowe",
+                "latitude": "8.40207000",
+                "longitude": "48.48284000"
+            },
+            {
+                "name": "Hobyo",
+                "latitude": "5.35050000",
+                "longitude": "48.52680000"
+            },
+            {
+                "name": "Iskushuban",
+                "latitude": "10.28370000",
+                "longitude": "50.23000000"
+            },
+            {
+                "name": "Jalalaqsi",
+                "latitude": "3.37660000",
+                "longitude": "45.59960000"
+            },
+            {
+                "name": "Jamaame",
+                "latitude": "0.06968000",
+                "longitude": "42.74497000"
+            },
+            {
+                "name": "Jawhar",
+                "latitude": "2.78087000",
+                "longitude": "45.50048000"
+            },
+            {
+                "name": "Jilib",
+                "latitude": "0.48829000",
+                "longitude": "42.78535000"
+            },
+            {
+                "name": "Kismayo",
+                "latitude": "-0.35817000",
+                "longitude": "42.54536000"
+            },
+            {
+                "name": "Las Khorey",
+                "latitude": "11.15950000",
+                "longitude": "48.19670000"
+            },
+            {
+                "name": "Luuq",
+                "latitude": "3.80315000",
+                "longitude": "42.54417000"
+            },
+            {
+                "name": "Mahaddayweyne",
+                "latitude": "2.97260000",
+                "longitude": "45.53470000"
+            },
+            {
+                "name": "Marka",
+                "latitude": "1.71594000",
+                "longitude": "44.77166000"
+            },
+            {
+                "name": "Mogadishu",
+                "latitude": "2.03711000",
+                "longitude": "45.34375000"
+            },
+            {
+                "name": "Oodweyne",
+                "latitude": "9.40920000",
+                "longitude": "45.06397000"
+            },
+            {
+                "name": "Qandala",
+                "latitude": "11.47197000",
+                "longitude": "49.87282000"
+            },
+            {
+                "name": "Qoryooley",
+                "latitude": "1.78784000",
+                "longitude": "44.52999000"
+            },
+            {
+                "name": "Saacow",
+                "latitude": "1.62794000",
+                "longitude": "42.44067000"
+            },
+            {
+                "name": "Tayeeglow",
+                "latitude": "4.01897000",
+                "longitude": "44.51111000"
+            },
+            {
+                "name": "Waajid",
+                "latitude": "3.80958000",
+                "longitude": "43.24627000"
+            },
+            {
+                "name": "Wanlaweyn",
+                "latitude": "2.61850000",
+                "longitude": "44.89380000"
+            },
+            {
+                "name": "Xarardheere",
+                "latitude": "4.65440000",
+                "longitude": "47.85750000"
+            },
+            {
+                "name": "Xuddur",
+                "latitude": "4.12129000",
+                "longitude": "43.88945000"
+            },
+            {
+                "name": "Yeed",
+                "latitude": "4.55000000",
+                "longitude": "43.03333000"
+            }
+        ]
+    }
+]

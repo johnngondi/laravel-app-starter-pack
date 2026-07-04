@@ -6,11 +6,11 @@
     <body class="app-body min-h-screen bg-white dark:bg-navy-950">
         @php($currentOrganisation = auth()->user()?->currentOrganisation)
 
-        <flux:sidebar sticky collapsible="mobile" class="wegon-sidebar border-e border-navy-800 bg-navy-900 dark:border-navy-800/60 dark:bg-navy-950">
+        <flux:sidebar sticky collapsible="mobile" class="aliensoft-sidebar border-e border-navy-800 bg-navy-900 dark:border-navy-800/60 dark:bg-navy-950">
             <flux:sidebar.header>
                 <a href="{{ $currentOrganisation ? route('organisation.dashboard', $currentOrganisation) : route('dashboard') }}" wire:navigate class="flex flex-1 items-center justify-center px-1 py-1">
                     {{-- White wordmark, for the dark navy sidebar background --}}
-                    <img src="{{ asset('WegonAILogo/wegon-ai-horizontal.svg') }}" alt="{{ config('app.name') }}" class="h-14 w-auto" />
+                    <img src="{{ asset('AlienSoftLogo/aliensoft-horizontal.svg') }}" alt="{{ config('app.name') }}" class="h-14 w-auto" />
                 </a>
                 <flux:sidebar.collapse class="lg:hidden" />
             </flux:sidebar.header>
@@ -26,15 +26,7 @@
                     <flux:sidebar.item icon="squares-2x2" :href="route('organisation.dashboard', $currentOrganisation)" :current="request()->routeIs('organisation.dashboard')" wire:navigate>
                         {{ __('Dashboard') }}
                     </flux:sidebar.item>
-                    <flux:sidebar.item icon="wallet" href="#">
-                        {{ __('Portfolio') }}
-                    </flux:sidebar.item>
-                    <flux:sidebar.item icon="banknotes" href="#">
-                        {{ __('Debtors Outstanding') }}
-                    </flux:sidebar.item>
-                    <flux:sidebar.item icon="scale" href="#">
-                        {{ __('Legal Action') }}
-                    </flux:sidebar.item>
+
                     @php($pendingActionsCount = auth()->user()?->pendingActionsCount())
                     <flux:sidebar.item
                         icon="chart-bar"

@@ -9,7 +9,7 @@
             <header class="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-6 py-5">
                 <a href="{{ route('home') }}" class="flex items-center" wire:navigate>
                     <x-app-logo-wordmark class="h-9 w-auto" />
-                    <span class="sr-only">{{ config('app.name', 'Wegon AI') }}</span>
+                    <span class="sr-only">{{ config('app.name', 'AlienSoft App') }}</span>
                 </a>
 
                 <div class="flex items-center gap-2">

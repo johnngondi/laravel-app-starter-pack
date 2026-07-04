@@ -1,0 +1,2304 @@
+[
+    {
+        "name": "view-bank-account",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Bank Account",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-bank-account",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Bank Account",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-bank-account",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Bank Account",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-bank-account",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Bank Account",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-booking",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Booking",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-booking",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Booking",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-booking",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Booking",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-booking",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Booking",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "confirm-booking",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Booking",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Access Management"
+    },
+    {
+        "name": "view-approval-template",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Approval Template",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-approval-template",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Approval Template",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-approval-template",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Approval Template",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-approval-template",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Approval Template",
+        "tag": "Access Management"
+    },
+    {
+        "name": "charge-import-process-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Property Management"
+    },
+    {
+        "name": "charge-import-validate-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Property Management"
+    },
+    {
+        "name": "dashboard-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Property Management"
+    },
+    {
+        "name": "facility-type-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-type",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Facility Type",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-type",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Type",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-type",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Type",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-type",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Type",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-setting",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Setting",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-setting",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Setting",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-setting",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Setting",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-setting",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Setting",
+        "tag": "Property Management"
+    },
+    {
+        "name": "sensor-server-device-company",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Company",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-driver",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Driver",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-driver",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Driver",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-driver",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Driver",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-driver",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Driver",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-facility",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "activate-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "admin-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "deactivate-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "floor-generate-facility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "spaces-facility",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-asset",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Asset",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-facility-asset",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Asset",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-facility-asset",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Asset",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-facility-asset",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Asset",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-facility-bill",
+        "user_group_ids": [
+            3,
+            4
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-bill",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-bill",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-bill",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-bill",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "post-expense-facility-bill",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Bill",
+        "tag": "Property Management"
+    },
+    {
+        "name": "upload-invoice-facility-bill",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Facility Bill",
+        "tag": "Vendor"
+    },
+    {
+        "name": "view-facility-contract",
+        "user_group_ids": [
+            3,
+            4
+        ],
+        "resource": "Facility Contract",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-contract",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Contract",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-contract",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Contract",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-status-facility-contract",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Contract",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-contract",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Contract",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-credit-note",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-credit-note",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-credit-note",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-credit-note",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-credit-note",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "dispute-facility-credit-note",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "withdraw-dispute-facility-credit-note",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Credit Note",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-expense",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-expense",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-expense",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-expense",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-expense",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "mark-as-paid-facility-expense",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Expense",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-budget",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Facility Budget",
+        "tag": "Property Management"
+    },
+    {
+        "name": "generate-facility-budget",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Budget",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-budget",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Budget",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-budget",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Budget",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-floor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Floor",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-floor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Floor",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-floor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Floor",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-floor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Floor",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-invoice",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-invoice",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-invoice",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-invoice",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-invoice",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "dispute-facility-invoice",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "withdraw-dispute-facility-invoice",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Invoice",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-payment-voucher",
+        "user_group_ids": [
+            3, 4, 6
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "pay-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "release-facility-payment-voucher",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Payment Voucher",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-procurement-lpo",
+        "user_group_ids": [
+            3,
+            4
+        ],
+        "resource": "Facility Procurement Lpo",
+        "tag": "Property Management"
+    },
+    {
+        "name": "review-document-facility-procurement-lpo",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Procurement Lpo",
+        "tag": "Property Management"
+    },
+    {
+        "name": "submit-doc-facility-procurement-lpo",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Facility Procurement Lpo",
+        "tag": "Vendor"
+    },
+    {
+        "name": "view-facility-procurement-request",
+        "user_group_ids": [
+            3,
+            4
+        ],
+        "resource": "Facility Procurement Request",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-procurement-request",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Procurement Request",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-procurement-request",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Procurement Request",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-procurement-request",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Procurement Request",
+        "tag": "Property Management"
+    },
+    {
+        "name": "assign-technician-facility-procurement-request",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Facility Procurement Request",
+        "tag": "Vendor"
+    },
+    {
+        "name": "update-facility-procurement-request-step",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Procurement Request Step",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-site-visit-report",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Site Visit Report",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-site-visit-report",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Site Visit Report",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-site-visit-report",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Site Visit Report",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-site-visit-report",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Site Visit Report",
+        "tag": "Property Management"
+    },
+
+    {
+        "name": "view-facility-procurement-request-bid",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Procurement Request Bid",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-procurement-request-bid",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Procurement Request Bid",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-procurement-request-bid",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Procurement Request Bid",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-procurement-request-bid",
+        "user_group_ids": [3, 4],
+        "resource": "Facility Procurement Request Bid",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-purchase-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Purchase Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-purchase-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Purchase Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-purchase-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Purchase Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-purchase-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Purchase Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-receipt",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-receipt",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-receipt",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-receipt",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-receipt",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "dispute-facility-receipt",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "withdraw-dispute-facility-receipt",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Receipt",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-remittance",
+        "user_group_ids": [
+            3, 6
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-remittance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-remittance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-remittance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "approve-facility-remittance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-remittance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Remittance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "cancel-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "settle-facility-settlement",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Settlement",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-facility-ticket",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Ticket",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-facility-ticket",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Ticket",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-facility-ticket",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Ticket",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-facility-ticket",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Facility Ticket",
+        "tag": "Property Management"
+    },
+    {
+        "name": "elevate-facility-ticket",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Facility Ticket",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-insurance-policy",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Policy",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-insurance-policy",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Policy",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-insurance-policy",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Policy",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-insurance-policy",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Policy",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-insurance-provider",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Provider",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-insurance-provider",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Provider",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-insurance-provider",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Provider",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-insurance-provider",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Insurance Provider",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-lease",
+        "user_group_ids": [
+            2,
+            3, 6
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "activate-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "suspend-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "terminate-lease",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-application",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Lease Application",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-lease-application",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Lease Application",
+        "tag": "Tenant"
+    },
+    {
+        "name": "update-lease-application",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Lease Application",
+        "tag": "Tenant"
+    },
+    {
+        "name": "delete-lease-application",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Lease Application",
+        "tag": "Property Management"
+    },
+    {
+        "name": "review-lease-application",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Application",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-billing",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Billing",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-collection",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Collection",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-components-payment-priority",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Components Payment Priority",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-lease-components-payment-priority",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Components Payment Priority",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-components-payment-priority",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Components Payment Priority",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-components-payment-priority",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Components Payment Priority",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-deposit",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Lease Deposit",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-deposit",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Deposit",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-deposit",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Deposit",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-escalation",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Lease Escalation",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-escalation",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Escalation",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-escalation",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Escalation",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-item",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-item-component",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item Component",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-item-component",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item Component",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-item-component",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Item Component",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-lease-opening-balance",
+        "user_group_ids": [
+            2,
+            3
+        ],
+        "resource": "Lease Opening Balance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-lease-opening-balance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Opening Balance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-lease-opening-balance",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Lease Opening Balance",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "decomission-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "suspend-power-source",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-power-source-activity-log",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source Activity Log",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-power-source-activity-log",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source Activity Log",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-power-source-activity-log",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source Activity Log",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-power-source-activity-log",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Power Source Activity Log",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-procurement-request-step-template-group",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Procurement Request Step Template Group",
+        "tag": "Property Management"
+    },
+    {
+        "name": "create-procurement-request-step-template-group",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Procurement Request Step Template Group",
+        "tag": "Property Management"
+    },
+    {
+        "name": "update-procurement-request-step-template-group",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Procurement Request Step Template Group",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-procurement-request-step-template-group",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Procurement Request Step Template Group",
+        "tag": "Property Management"
+    },
+    {
+        "name": "view-project",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project",
+        "tag": "Project Management"
+    },
+    {
+        "name": "create-project",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project",
+        "tag": "Project Management"
+    },
+    {
+        "name": "update-project",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project",
+        "tag": "Project Management"
+    },
+    {
+        "name": "delete-project",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project",
+        "tag": "Project Management"
+    },
+    {
+        "name": "cancel-project",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project",
+        "tag": "Project Management"
+    },
+    {
+        "name": "view-project-milestone",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Milestone",
+        "tag": "Project Management"
+    },
+    {
+        "name": "update-project-milestone",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Milestone",
+        "tag": "Project Management"
+    },
+    {
+        "name": "update-status-project-milestone",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Milestone",
+        "tag": "Project Management"
+    },
+    {
+        "name": "delete-project-milestone",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Milestone",
+        "tag": "Project Management"
+    },
+    {
+        "name": "view-project-task",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Task",
+        "tag": "Project Management"
+    },
+    {
+        "name": "update-project-task",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Task",
+        "tag": "Project Management"
+    },
+    {
+        "name": "update-status-project-task",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Task",
+        "tag": "Project Management"
+    },
+    {
+        "name": "delete-project-task",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Project Task",
+        "tag": "Project Management"
+    },
+    {
+        "name": "view-role",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Role",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-role",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Role",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-role",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Role",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-role",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Role",
+        "tag": "Access Management"
+    },
+    {
+        "name": "view-company-department",
+        "user_group_ids": [3],
+        "resource": "Company Department",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-company-department",
+        "user_group_ids": [3],
+        "resource": "Company Department",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-company-department",
+        "user_group_ids": [3],
+        "resource": "Company Department",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-company-department",
+        "user_group_ids": [3],
+        "resource": "Company Department",
+        "tag": "Access Management"
+    },
+
+    {
+        "name": "view-company-office",
+        "user_group_ids": [3],
+        "resource": "Company Office",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-company-office",
+        "user_group_ids": [3],
+        "resource": "Company Office",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-company-office",
+        "user_group_ids": [3],
+        "resource": "Company Office",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-company-office",
+        "user_group_ids": [3],
+        "resource": "Company Office",
+        "tag": "Access Management"
+    },
+
+    {
+        "name": "view-company-user",
+        "user_group_ids": [3],
+        "resource": "Company User",
+        "tag": "Access Management"
+    },
+    {
+        "name": "create-company-user",
+        "user_group_ids": [3],
+        "resource": "Company User",
+        "tag": "Access Management"
+    },
+    {
+        "name": "update-company-user",
+        "user_group_ids": [3],
+        "resource": "Company User",
+        "tag": "Access Management"
+    },
+    {
+        "name": "delete-company-user",
+        "user_group_ids": [3],
+        "resource": "Company User",
+        "tag": "Access Management"
+    },
+    {
+        "name": "view-sensor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Sensor",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-sensor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Sensor",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-sensor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Sensor",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-sensor",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Sensor",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-trip",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Trip",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-trip",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Trip",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-trip",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Trip",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-trip",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Trip",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-user",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "User",
+        "tag": "General"
+    },
+    {
+        "name": "create-user",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "User",
+        "tag": "General"
+    },
+    {
+        "name": "delete-user",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "User",
+        "tag": "General"
+    },
+    {
+        "name": "view-utility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-utility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-utility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-utility",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "activate-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "deactivate-utility-meter",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-utility-meter-reading",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter Reading",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-utility-meter-reading",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter Reading",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-utility-meter-reading",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Meter Reading",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-utility-price",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Price",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-utility-price",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Price",
+        "tag": "Property Management"
+    },
+    {
+        "name": "delete-utility-price",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Utility Price",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-vehicle",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Vehicle",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "create-vehicle",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Vehicle",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "update-vehicle",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Vehicle",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "delete-vehicle",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Vehicle",
+        "tag": "Facility Management"
+    },
+    {
+        "name": "view-vendor-user",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Vendor User",
+        "tag": "Vendor"
+    },
+    {
+        "name": "create-vendor-user",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Vendor User",
+        "tag": "Vendor"
+    },
+    {
+        "name": "update-vendor-user",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Vendor User",
+        "tag": "Vendor"
+    },
+    {
+        "name": "delete-vendor-user",
+        "user_group_ids": [
+            4
+        ],
+        "resource": "Vendor User",
+        "tag": "Vendor"
+    },
+    {
+        "name": "view-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 222,
+        "name": "create-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 223,
+        "name": "update-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 224,
+        "name": "delete-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 225,
+        "name": "activate-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 226,
+        "name": "suspend-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "name": "terminate-landlord",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "name": "view-vendor",
+        "resource": "Landlord",
+        "tag": "Property Management",
+        "user_group_id": 2,
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 222,
+        "name": "create-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 223,
+        "name": "update-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 224,
+        "name": "delete-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 225,
+        "name": "activate-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "id": 226,
+        "name": "suspend-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "name": "terminate-vendor",
+        "resource": "Vendor",
+        "tag": "Property Management",
+        "user_group_ids": [
+            3
+        ]
+    },
+    {
+        "name": "view-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "create-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "update-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "suspend-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "activate-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "terminate-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "delete-landlord-user",
+        "user_group_ids": [
+            6
+        ],
+        "resource": "Landlord User",
+        "tag": "Landlord"
+    },
+    {
+        "name": "view-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "create-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "update-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "suspend-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "activate-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "terminate-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "delete-tenant-user",
+        "user_group_ids": [
+            2
+        ],
+        "resource": "Tenant User",
+        "tag": "Tenant"
+    },
+    {
+        "name": "update-uploads",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Upload",
+        "tag": "General"
+    },
+    {
+        "name": "delete-uploads",
+        "user_group_ids": [
+            3
+        ],
+        "resource": "Upload",
+        "tag": "General"
+    }
+]

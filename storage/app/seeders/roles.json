@@ -1,0 +1,54 @@
+[
+    {
+        "name": "System Admin",
+        "description": "Has full access to the system Facility Manager side.",
+        "group": "admin"
+    },
+    {
+        "name": "Landlord Admin",
+        "description": "Has full access to landlords portal.",
+        "group": "landlord"
+    },
+    {
+        "name": "Vendor Admin",
+        "description": "Has full access to vendors portal.",
+        "group": "vendor"
+    },
+    {
+        "name": "Vendor Technician",
+        "description": "Has full access to vendors portal.",
+        "group": "vendor"
+    },
+    {
+        "name": "User",
+        "description": "Can raise tickets and see information that concern them.",
+        "group": "user"
+    },
+    {
+        "name": "Caretaker",
+        "description": "Handle day to day on the facilities",
+        "group": "admin",
+        "enforce_on_facility": true
+    },
+    {
+        "name": "Facility Manager",
+        "description": "Handle approvals for the facilities",
+        "group": "admin",
+        "enforce_on_facility": true
+    },
+    {
+        "name": "Procurement Manager",
+        "description": "Approve all Procurement Requests and Select bids",
+        "group": "admin"
+    },
+    {
+        "name": "Finance Manager",
+        "description": "Handle Facility Finance issues and approve selected bids and co-sign on LPOs.",
+        "group": "admin"
+    },
+    {
+        "name": "Executive Signatory",
+        "description": "Co-Sign with finance on LPOs.",
+        "group": "admin"
+    }
+]

@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
                 'email' => 'test@example.com',
             ]);
 
-            Organisation::createForOwner($owner, 'Wegon AI Demo');
+            Organisation::createForOwner($owner, 'AlienSoft App Demo');
         }
     }
 }
