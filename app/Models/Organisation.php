@@ -134,7 +134,7 @@ class Organisation extends Model implements Uploadable
     }
 
     /**
-     * The default currency used for the organisation's debts and payments.
+     * The default currency used for the organisation's transactions.
      *
      * @return BelongsTo<Currency, $this>
      */

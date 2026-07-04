@@ -2,7 +2,7 @@
     <div class="text-center">
         <flux:heading size="xl">{{ __('Create your organisation') }}</flux:heading>
         <flux:subheading>
-            {{ __('Every debtor, debt and payment in AlienSoft App belongs to an organisation. Set yours up to get started.') }}
+            {{ __('Everything in AlienSoft App belongs to an organisation. Set yours up to get started.') }}
         </flux:subheading>
     </div>
 
@@ -43,7 +43,7 @@
                 shape="rounded"
             />
 
-            <x-input wire:model="name" type="text" :placeholder="__('e.g. AlienSoft Collections Ltd')">
+            <x-input wire:model="name" type="text" :placeholder="__('e.g. AlienSoft Ltd')">
                 <x-slot:label><x-required-label>{{ __('Organisation name') }}</x-required-label></x-slot:label>
             </x-input>
 

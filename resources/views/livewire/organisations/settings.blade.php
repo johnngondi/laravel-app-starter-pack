@@ -87,7 +87,7 @@
                 <div>
                     <flux:heading size="lg" class="text-red-600 dark:text-red-500">{{ __('Delete organisation') }}</flux:heading>
                     <flux:subheading>
-                        {{ __('Permanently delete :name and all of its data — debtors, staff memberships and roles. This cannot be undone.', ['name' => $organisation->name]) }}
+                        {{ __('Permanently delete :name and all of its data — records, staff memberships and roles. This cannot be undone.', ['name' => $organisation->name]) }}
                     </flux:subheading>
                 </div>
 
@@ -103,7 +103,7 @@
                             <flux:heading size="lg">{{ __('Are you sure you want to delete this organisation?') }}</flux:heading>
 
                             <flux:subheading>
-                                {{ __('Once :name is deleted, all of its debtors, staff memberships and roles will be permanently removed. Please enter your password to confirm.', ['name' => $organisation->name]) }}
+                                {{ __('Once :name is deleted, all of its records, staff memberships and roles will be permanently removed. Please enter your password to confirm.', ['name' => $organisation->name]) }}
                             </flux:subheading>
                         </div>
 

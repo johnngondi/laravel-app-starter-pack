@@ -39,12 +39,12 @@
             {{-- Hero --}}
             <main class="flex flex-1 flex-col items-center justify-center px-6 py-16 text-center">
                 <h1 class="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                    {{ __('Debt recovery, powered by') }}
-                    <span class="text-[#E0B53D]">{{ __('AI.') }}</span>
+                    {{ __('Multitenancy & AI Ready') }}
+                    <span class="text-[#E0B53D]">{{ __('App Starter Pack.') }}</span>
                 </h1>
 
                 <p class="mt-6 max-w-xl text-base leading-relaxed text-zinc-500 dark:text-zinc-400 sm:text-lg">
-                    {{ __('Automate collections, prioritise high-risk accounts, and recover more — with AI-driven workflows built for modern debt collection teams.') }}
+                    {{ __('Organisations, roles, settings and AI-ready foundations — everything you need to launch your next multi-tenant application.') }}
                 </p>
 
                 <div class="mt-10 flex flex-col items-center gap-4 sm:flex-row">
@@ -69,20 +69,6 @@
                     </a>
                 </div>
 
-                {{-- Partners --}}
-                <div class="mt-20 w-full max-w-4xl">
-                    <p class="text-xs font-semibold uppercase tracking-wide text-zinc-400 dark:text-zinc-500">
-                        {{ __('Trusted by these partners so far') }}
-                    </p>
-
-                    <div class="mt-5 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-sm font-semibold text-zinc-400 dark:text-zinc-500">
-                        <span>{{ __('KCB Bank Kenya') }}</span>
-                        <span>{{ __('Faulu Kenya DTM') }}</span>
-                        <span>{{ __('Stanbic Microfinance') }}</span>
-                        <span>{{ __('JM Realty') }}</span>
-                        <span>{{ __('Unity Properties') }}</span>
-                    </div>
-                </div>
             </main>
         </div>
 

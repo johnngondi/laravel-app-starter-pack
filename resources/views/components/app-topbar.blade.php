@@ -6,7 +6,7 @@
 
     <x-input
         icon="magnifying-glass"
-        :placeholder="__('Search debtors, cases, creditors...')"
+        :placeholder="__('Search...')"
         class="w-full max-w-md"
     />
 

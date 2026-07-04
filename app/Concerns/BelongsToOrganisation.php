@@ -11,8 +11,8 @@ use Illuminate\Support\Facades\Auth;
 /**
  * Scopes a model to the current organisation (multi-tenancy).
  *
- * Apply this to "parent" / tenant-owned models such as Invoice, Debtor or
- * Debt — models that are directly owned by an organisation. Child models
+ * Apply this to "parent" / tenant-owned models such as Invoice, Project or
+ * Task — models that are directly owned by an organisation. Child models
  * (e.g. InvoiceItem) should NOT use it; they inherit tenancy through their
  * parent.
  *

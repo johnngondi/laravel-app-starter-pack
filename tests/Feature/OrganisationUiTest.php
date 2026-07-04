@@ -51,16 +51,15 @@ it('creates an organisation through the onboarding component', function () {
     $component->assertRedirect(route('organisation.dashboard', $organisation));
 });
 
-it('serves the organisation dashboard under its slug with demo data', function () {
+it('serves the organisation dashboard under its slug', function () {
     $owner = User::factory()->create();
     $organisation = Organisation::createForOwner($owner, 'Acme Collections');
 
     $this->actingAs($owner)
         ->get(route('organisation.dashboard', $organisation))
         ->assertOk()
-        ->assertSee('Acme Collections')
-        ->assertSee('Active Debtors')
-        ->assertSee('Recent activity');
+        ->assertSee('Dashboard')
+        ->assertSee('Overview');
 
     expect(route('organisation.dashboard', $organisation))->toContain('/acme-collections/dashboard');
 });

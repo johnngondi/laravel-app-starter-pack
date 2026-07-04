@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 /**
  * Gives a model a polymorphic collection of pending tasks and the utilities to
  * create and remove them. Apply to any "actionable" model that can have work
- * outstanding against it (e.g. a Debt, Case or Note).
+ * outstanding against it (e.g. an Invoice, Task or Note).
  *
  * @phpstan-require-extends Model
  */

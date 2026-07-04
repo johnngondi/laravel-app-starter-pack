@@ -17,7 +17,7 @@
 
             <div class="px-2 pb-2 pt-1">
                 <x-button primary icon="plus" href="#" class="w-full justify-center">
-                    {{ __('New Case') }}
+                    {{ __('New Item') }}
                 </x-button>
             </div>
 
